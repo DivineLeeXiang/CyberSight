@@ -127,8 +127,8 @@ database/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/cyber-netra.git
-cd cyber-netra
+git clone https://github.com/YOUR_USERNAME/cybersight.git
+cd cybersight
 ```
 
 ### 2. Setup Database & Datasets
@@ -175,13 +175,13 @@ git init
 git add .
 
 # 3. Create initial commit
-git commit -m "feat: initial release of CYBER-NETRA predictive cybercrime framework"
+git commit -m "feat: initial release of CYBERSIGHT predictive cybercrime framework"
 
 # 4. Set main branch
 git branch -M main
 
 # 5. Link your GitHub repository (replace with your repo URL)
-git remote add origin https://github.com/YOUR_USERNAME/cyber-netra.git
+git remote add origin https://github.com/YOUR_USERNAME/cybersight.git
 
 # 6. Push to GitHub
 git push -u origin main
