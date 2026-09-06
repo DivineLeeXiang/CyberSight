@@ -1,6 +1,11 @@
 <div align="center">
 
+<<<<<<< HEAD
 # 👁️ CYBERSIGHT
+=======
+# 🛡️ CYBERSIGHT by Divyansh
+
+>>>>>>> c885b6055ff1347f249be200d1c12f8cb03e8de4
 ### National Predictive Cybercrime Cash-Out Forecasting & Proactive Intervention Platform
 
 [![Python](https://img.shields.io/badge/Python-3.11%2B-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
@@ -19,11 +24,20 @@
 
 ## 📌 Problem Statement Background
 
+<<<<<<< HEAD
 The centralized **National Cybercrime Reporting Portal (NCRP)** currently receives **over 8,000 complaints daily**, predominantly involving financial cyber frauds (*Digital Arrest scams*, *Stock Investment fraud*, *Task/Work-from-Home scams*, *KYC phishing*, *Loan app extortion*).
 
 Stolen money is routed rapidly across multiple banks through Layer 1, Layer 2, and Layer 3 mule accounts, and physical cash is extracted via **ATMs, Micro-ATMs, and Customer Service Points (CSPs)** within the critical **35-minute to 2-hour "Golden Hour"**. Conventional reactive freezing arrives after funds are already gone.
 
 **CYBERSIGHT transforms the defense from reactive to proactive:**
+=======
+The centralized **National Cybercrime Reporting Portal (NCRP)** currently receives **over 8,000 complaints daily**, predominantly involving financial cyber frauds (_Digital Arrest scams_, _Stock Investment fraud_, _Task/Work-from-Home scams_, _KYC phishing_, _Loan app extortion_).
+
+Stolen money is routed rapidly across multiple banks through Layer 1, Layer 2, and Layer 3 mule accounts, and physical cash is extracted via **ATMs, Micro-ATMs, and Customer Service Points (CSPs)** within the critical **35-minute to 2-hour "Golden Hour"**. Conventional reactive freezing arrives after funds are already gone.
+
+**CYBER-NETRA transforms the defense from reactive to proactive:**
+
+>>>>>>> c885b6055ff1347f249be200d1c12f8cb03e8de4
 - **Forecasts likely cash withdrawal locations in advance** (ATM, Micro-ATM, Branch) using spatio-temporal AI models, Gaussian kernel density estimation, distance decay heuristics, and syndicate graph analysis.
 - **Estimates physical cash-out timeframes (ETA countdowns)** based on transaction velocity and layering patterns.
 - **Automates multi-agency interventions**: Instant geo-fenced PCR van dispatches and real-time CFCFRMS bank account freezes before cash is extracted.
@@ -36,21 +50,21 @@ Stolen money is routed rapidly across multiple banks through Layer 1, Layer 2, a
 flowchart TD
     NCRP[NCRP 1930 Stream: 8,000+ Daily Complaints] --> Ingest[Data Ingestion & Layering Pipeline]
     Ingest --> Engine[AI Spatio-Temporal Predictive Engine]
-    
+
     subgraph Engine [AI / ML & Network Forensics]
         KDE[2D Gaussian Kernel Density Spatial Model]
         NETX[NetworkX Directed Multi-Layer Mule Graph]
         VEL[Golden-Hour Cash-Out Velocity Regressor]
         VULN[ATM Physical Vulnerability Indexer]
     end
-    
+
     Engine --> KDE & NETX & VEL & VULN
     KDE & NETX & VEL & VULN --> Forecast[Forecast: Targeted ATM, ETA Countdown, Risk Level]
-    
+
     Forecast --> GIS[CartoDB Positron Tactical GIS Map]
     Forecast --> Feed[Predictive Cash-Out Queue with Batch Action Bar]
     Forecast --> Gateway[Multi-Channel Alert Gateway]
-    
+
     Gateway --> SMS[Beat Officer SMS Navigation Link]
     Gateway --> WA[WhatsApp / Telegram SHO Incident Advisory]
     Gateway --> API[CFCFRMS 1-Click Bank Account Freeze API]
@@ -128,7 +142,8 @@ database/
 ```
 
 ### Relational Schema Highlights:
-- **`hotspots`**: Curated cybercrime operational zones (*Mewat-Nuh*, *Jamtara*, *Surat*, *Bharatpur*, *Gurugram*, *Delhi NCR*, *Hyderabad*, *Bengaluru*).
+
+- **`hotspots`**: Curated cybercrime operational zones (_Mewat-Nuh_, _Jamtara_, _Surat_, _Bharatpur_, _Gurugram_, _Delhi NCR_, _Hyderabad_, _Bengaluru_).
 - **`atms`**: 120+ geolocated terminals with vulnerability scores, CCTV coverage, cash limits, and nearest police stations.
 - **`complaints`**: Full NCRP schema with complainant information, amounts, and victim/mule accounts.
 - **`layer_hops`**: Directed money transfers across Layer 1 to Layer 3 with bank IFSC and UTR numbers.
@@ -170,16 +185,19 @@ database/
 ## 💻 Quickstart & Local Installation
 
 ### Prerequisites
+
 - **Python 3.11+**
 - **Node.js 18+** and **npm**
 
 ### 1. Clone the Repository
+
 ```bash
 git clone https://github.com/YOUR_USERNAME/cybersight.git
 cd cybersight
 ```
 
 ### 2. Setup Database & Datasets
+
 ```bash
 cd database
 python seed_db.py
@@ -187,20 +205,32 @@ cd ..
 ```
 
 ### 3. Setup and Run Backend (FastAPI)
+
 ```bash
 cd backend
 pip install -r requirements.txt
 python -m uvicorn main:app --host 127.0.0.1 --port 8000
 ```
+<<<<<<< HEAD
 API Documentation: `http://127.0.0.1:8000/docs`
 
 ### 4. Setup and Run Frontend (React + Vite)
 In a **new terminal**:
+=======
+
+API Documentation will be available at: `http://127.0.0.1:8000/docs`
+
+### 4. Setup and Run Frontend (React + Vite)
+
+In a new terminal:
+
+>>>>>>> c885b6055ff1347f249be200d1c12f8cb03e8de4
 ```bash
 cd frontend
 npm install --legacy-peer-deps
 npm run dev -- --host 127.0.0.1 --port 5173
 ```
+<<<<<<< HEAD
 Open your browser at: **`http://127.0.0.1:5173`**
 
 ### Demo Login Credentials
@@ -211,6 +241,10 @@ Open your browser at: **`http://127.0.0.1:5173`**
 | District Cyber Cell | `LEA_OFFICER` | `Cyber@LEA2026` |
 | Field Beat Officer | `BEAT_PCR` | `Beat@PCR2026` |
 | CFCFRMS Bank Nodal | `BANK_NODAL` | `Bank@CFCFRMS2026` |
+=======
+
+Open your browser at: `http://127.0.0.1:5173`
+>>>>>>> c885b6055ff1347f249be200d1c12f8cb03e8de4
 
 ---
 
@@ -220,16 +254,31 @@ Open your browser at: **`http://127.0.0.1:5173`**
 # Initialize Git (skip if already done)
 git init
 git add .
+<<<<<<< HEAD
 git commit -m "feat: initial release of CYBERSIGHT predictive cybercrime framework"
 git branch -M main
 
 # Link your GitHub repository
 git remote add origin https://github.com/YOUR_USERNAME/cybersight.git
+=======
+
+# 3. Create initial commit
+git commit -m "feat: initial release of CYBERSIGHT predictive cybercrime framework"
+
+# 4. Set main branch
+git branch -M main
+
+# 5. Link your GitHub repository (replace with your repo URL)
+git remote add origin https://github.com/YOUR_USERNAME/cybersight.git
+
+# 6. Push to GitHub
+>>>>>>> c885b6055ff1347f249be200d1c12f8cb03e8de4
 git push -u origin main
 ```
 
 ---
 
 ## 📜 License
+
 This project is open-sourced under the [MIT License](LICENSE).
 Developed for national cyber defense research and Smart India Hackathon / I4C problem statements.

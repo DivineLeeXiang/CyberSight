@@ -1,0 +1,330 @@
+{
+  "communities": {
+    "0": [
+      "backend_main",
+      "backend_main_customincidentinput",
+      "backend_main_dispatch_unit",
+      "backend_main_freeze_account",
+      "backend_main_get_actionable_intelligence_dossier",
+      "backend_main_get_active_predictions",
+      "backend_main_get_alerts",
+      "backend_main_get_atms",
+      "backend_main_get_complaint_graph",
+      "backend_main_get_complaints",
+      "backend_main_get_hotspots",
+      "backend_main_get_system_status",
+      "backend_main_inject_custom_incident",
+      "backend_main_py_basemodel",
+      "backend_main_rationale_280",
+      "backend_main_rationale_369",
+      "backend_models_predictive_engine",
+      "backend_models_predictive_engine_predictiveanalyticsengine",
+      "backend_models_predictive_engine_predictiveanalyticsengine_init",
+      "backend_models_predictive_engine_predictiveanalyticsengine_load_reference_data",
+      "backend_models_schemas",
+      "backend_models_schemas_atm",
+      "backend_models_schemas_atmtype",
+      "backend_models_schemas_crimecategory",
+      "backend_models_schemas_dispatchrequest",
+      "backend_models_schemas_freezerequest",
+      "backend_models_schemas_interventionstatus",
+      "backend_models_schemas_risklevel",
+      "enum",
+      "get",
+      "post",
+      "str"
+    ],
+    "1": [
+      "frontend_src_app",
+      "frontend_src_components_alerts_alertsdrawer",
+      "frontend_src_components_alerts_alertsdrawer_alertsdrawer",
+      "frontend_src_components_auth_loginpage",
+      "frontend_src_components_auth_loginpage_demo_credentials",
+      "frontend_src_components_auth_loginpage_loginpage",
+      "frontend_src_components_feed_predictivecashoutfeed",
+      "frontend_src_components_feed_predictivecashoutfeed_predictivecashoutfeed",
+      "frontend_src_components_graph_moneylayeringgraph",
+      "frontend_src_components_graph_moneylayeringgraph_moneylayeringgraph",
+      "frontend_src_components_heatmap_tacticalgismap",
+      "frontend_src_components_heatmap_tacticalgismap_tacticalgismap",
+      "frontend_src_components_modals_dossiermodal",
+      "frontend_src_components_modals_dossiermodal_dossiermodal",
+      "frontend_src_components_modals_helpguidemodal",
+      "frontend_src_components_modals_helpguidemodal_helpguidemodal",
+      "frontend_src_components_modals_injectincidentmodal",
+      "frontend_src_components_modals_injectincidentmodal_crime_presets",
+      "frontend_src_components_modals_injectincidentmodal_injectincidentmodal",
+      "frontend_src_components_navbar",
+      "frontend_src_components_navbar_navbar",
+      "frontend_src_components_roles_roleviews",
+      "frontend_src_components_roles_roleviews_banknodalview",
+      "frontend_src_components_roles_roleviews_fieldbeatofficerview",
+      "frontend_src_components_roles_roleviews_i4ccommandview",
+      "frontend_src_main",
+      "frontend_src_services_api",
+      "frontend_src_services_api_api",
+      "ref_lucide_react",
+      "ref_react"
+    ],
+    "2": [
+      "frontend_package",
+      "frontend_package_devdependencies",
+      "frontend_package_devdependencies_oxlint",
+      "frontend_package_devdependencies_types_react",
+      "frontend_package_devdependencies_types_react_dom",
+      "frontend_package_devdependencies_vite",
+      "frontend_package_devdependencies_vitejs_plugin_react",
+      "frontend_package_name",
+      "frontend_package_private",
+      "frontend_package_scripts",
+      "frontend_package_scripts_build",
+      "frontend_package_scripts_dev",
+      "frontend_package_scripts_lint",
+      "frontend_package_scripts_preview",
+      "frontend_package_type",
+      "frontend_package_version",
+      "frontend_vite_config",
+      "ref_leaflet",
+      "ref_oxlint",
+      "ref_react_dom",
+      "ref_react_leaflet",
+      "ref_recharts",
+      "ref_tailwindcss",
+      "ref_tailwindcss_vite",
+      "ref_types_react",
+      "ref_types_react_dom",
+      "ref_vite",
+      "ref_vitejs_plugin_react"
+    ],
+    "3": [
+      "backend_models_predictive_engine_haversine_distance_km",
+      "backend_models_predictive_engine_predictiveanalyticsengine_find_best_hotspot_match",
+      "backend_models_predictive_engine_predictiveanalyticsengine_predict_cashout",
+      "backend_models_predictive_engine_py_any",
+      "backend_models_predictive_engine_rationale_12",
+      "backend_models_predictive_engine_rationale_43",
+      "backend_models_predictive_engine_rationale_70",
+      "backend_models_schemas_alertnotification",
+      "backend_models_schemas_complaint",
+      "backend_models_schemas_prediction",
+      "backend_models_schemas_py_basemodel",
+      "backend_services_alert_dispatcher",
+      "backend_services_alert_dispatcher_alertdispatcherservice",
+      "backend_services_alert_dispatcher_alertdispatcherservice_dispatch_prediction_alert",
+      "backend_services_alert_dispatcher_alertdispatcherservice_get_recent_alerts",
+      "backend_services_alert_dispatcher_alertdispatcherservice_init",
+      "backend_services_alert_dispatcher_rationale_11",
+      "backend_services_graph_forensics",
+      "backend_services_graph_forensics_graphforensicsservice",
+      "backend_services_graph_forensics_graphforensicsservice_add_complaint_to_graph",
+      "backend_services_graph_forensics_graphforensicsservice_get_complaint_subgraph",
+      "backend_services_graph_forensics_graphforensicsservice_init",
+      "backend_services_graph_forensics_py_any",
+      "backend_services_graph_forensics_rationale_10",
+      "backend_services_graph_forensics_rationale_69"
+    ],
+    "4": [
+      "frontend_package_dependencies",
+      "frontend_package_dependencies_leaflet",
+      "frontend_package_dependencies_lucide_react",
+      "frontend_package_dependencies_react",
+      "frontend_package_dependencies_react_dom",
+      "frontend_package_dependencies_react_leaflet",
+      "frontend_package_dependencies_recharts",
+      "frontend_package_dependencies_tailwindcss",
+      "frontend_package_dependencies_tailwindcss_vite"
+    ],
+    "5": [
+      "backend_main_rationale_74",
+      "backend_main_seed_initial_data",
+      "backend_models_schemas_layerhop",
+      "backend_services_data_generator",
+      "backend_services_data_generator_generate_random_complaint",
+      "backend_services_data_generator_rationale_55",
+      "database_seed_db",
+      "database_seed_db_init_and_seed"
+    ],
+    "6": [
+      "backend_main_connectionmanager",
+      "backend_main_connectionmanager_broadcast",
+      "backend_main_connectionmanager_connect",
+      "backend_main_connectionmanager_disconnect",
+      "backend_main_connectionmanager_init",
+      "backend_main_websocket_endpoint",
+      "websocket"
+    ],
+    "7": [
+      "frontend_oxlintrc",
+      "frontend_oxlintrc_plugins",
+      "frontend_oxlintrc_rules",
+      "frontend_oxlintrc_rules_react_only_export_components",
+      "frontend_oxlintrc_rules_react_rules_of_hooks",
+      "frontend_oxlintrc_schema"
+    ],
+    "8": [
+      "frontend_src_app_app",
+      "frontend_src_services_api_cybernetrawebsocket",
+      "frontend_src_services_api_cybernetrawebsocket_connect",
+      "frontend_src_services_api_cybernetrawebsocket_constructor",
+      "frontend_src_services_api_cybernetrawebsocket_disconnect",
+      "frontend_src_services_api_cybernetrawebsocket_reconnect"
+    ]
+  },
+  "cohesion": {
+    "0": 0.1592741935483871,
+    "1": 0.15862068965517243,
+    "2": 0.07671957671957672,
+    "3": 0.12333333333333334,
+    "4": 0.2222222222222222,
+    "5": 0.32142857142857145,
+    "6": 0.3333333333333333,
+    "7": 0.3333333333333333,
+    "8": 0.5333333333333333
+  },
+  "gods": [
+    {
+      "id": "backend_models_schemas_complaint",
+      "label": "Complaint",
+      "degree": 13
+    },
+    {
+      "id": "ref_react",
+      "label": "react",
+      "degree": 13
+    },
+    {
+      "id": "backend_models_predictive_engine_predictiveanalyticsengine",
+      "label": "PredictiveAnalyticsEngine",
+      "degree": 12
+    },
+    {
+      "id": "backend_models_schemas_risklevel",
+      "label": "RiskLevel",
+      "degree": 12
+    },
+    {
+      "id": "backend_models_schemas_prediction",
+      "label": "Prediction",
+      "degree": 12
+    },
+    {
+      "id": "ref_lucide_react",
+      "label": "lucide-react",
+      "degree": 12
+    },
+    {
+      "id": "backend_models_schemas_interventionstatus",
+      "label": "InterventionStatus",
+      "degree": 10
+    },
+    {
+      "id": "backend_models_schemas_alertnotification",
+      "label": "AlertNotification",
+      "degree": 9
+    },
+    {
+      "id": "backend_models_schemas_crimecategory",
+      "label": "CrimeCategory",
+      "degree": 8
+    },
+    {
+      "id": "backend_services_alert_dispatcher_alertdispatcherservice",
+      "label": "AlertDispatcherService",
+      "degree": 8
+    }
+  ],
+  "surprises": [
+    {
+      "source": "init_and_seed()",
+      "target": "generate_random_complaint()",
+      "source_files": [
+        "database/seed_db.py",
+        "backend/services/data_generator.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; peripheral node `init_and_seed()` unexpectedly reaches hub `generate_random_complaint()`"
+    },
+    {
+      "source": "dispatch_unit()",
+      "target": "AlertNotification",
+      "source_files": [
+        "backend/main.py",
+        "backend/models/schemas.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+    },
+    {
+      "source": "freeze_account()",
+      "target": "AlertNotification",
+      "source_files": [
+        "backend/main.py",
+        "backend/models/schemas.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+    },
+    {
+      "source": "inject_custom_incident()",
+      "target": "Complaint",
+      "source_files": [
+        "backend/main.py",
+        "backend/models/schemas.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+    },
+    {
+      "source": "inject_custom_incident()",
+      "target": "LayerHop",
+      "source_files": [
+        "backend/main.py",
+        "backend/models/schemas.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `react` connect `Community 1` to `Community 2`?",
+      "why": "High betweenness centrality (0.059) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `lucide-react` connect `Community 1` to `Community 2`?",
+      "why": "High betweenness centrality (0.054) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `dependencies` connect `Community 4` to `Community 2`?",
+      "why": "High betweenness centrality (0.048) - this node is a cross-community bridge."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 3 inferred relationships involving `Complaint` (e.g. with `inject_custom_incident()` and `PredictiveAnalyticsEngine`) actually correct?",
+      "why": "`Complaint` has 3 INFERRED edges - model-reasoned connections that need verification."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 6 inferred relationships involving `PredictiveAnalyticsEngine` (e.g. with `ATM` and `ATMType`) actually correct?",
+      "why": "`PredictiveAnalyticsEngine` has 6 INFERRED edges - model-reasoned connections that need verification."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 6 inferred relationships involving `RiskLevel` (e.g. with `freeze_account()` and `get_active_predictions()`) actually correct?",
+      "why": "`RiskLevel` has 6 INFERRED edges - model-reasoned connections that need verification."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 3 inferred relationships involving `Prediction` (e.g. with `PredictiveAnalyticsEngine` and `AlertDispatcherService`) actually correct?",
+      "why": "`Prediction` has 3 INFERRED edges - model-reasoned connections that need verification."
+    }
+  ]
+}
