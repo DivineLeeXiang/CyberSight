@@ -248,35 +248,6 @@ Open your browser at: `http://127.0.0.1:5173`
 
 ---
 
-## 📤 Pushing to Your GitHub Repository
-
-```bash
-# Initialize Git (skip if already done)
-git init
-git add .
-<<<<<<< HEAD
-git commit -m "feat: initial release of CYBERSIGHT predictive cybercrime framework"
-git branch -M main
-
-# Link your GitHub repository
-git remote add origin https://github.com/YOUR_USERNAME/cybersight.git
-=======
-
-# 3. Create initial commit
-git commit -m "feat: initial release of CYBERSIGHT predictive cybercrime framework"
-
-# 4. Set main branch
-git branch -M main
-
-# 5. Link your GitHub repository (replace with your repo URL)
-git remote add origin https://github.com/YOUR_USERNAME/cybersight.git
-
-# 6. Push to GitHub
->>>>>>> c885b6055ff1347f249be200d1c12f8cb03e8de4
-git push -u origin main
-```
-
----
 
 ## 📜 License
 
