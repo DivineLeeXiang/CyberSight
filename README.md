@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🛡️ CYBER-NETRA
+# 🛡️ CYBER-NETRA by Divyansh
 ### National Predictive Cybercrime Cash-Out Forecasting & Proactive Intervention Platform
 
 [![Python](https://img.shields.io/badge/Python-3.11%2B-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
