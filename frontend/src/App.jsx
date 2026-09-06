@@ -6,21 +6,29 @@ import MoneyLayeringGraph from './components/Graph/MoneyLayeringGraph';
 import AlertsDrawer from './components/Alerts/AlertsDrawer';
 import InjectIncidentModal from './components/Modals/InjectIncidentModal';
 import DossierModal from './components/Modals/DossierModal';
+import HelpGuideModal from './components/Modals/HelpGuideModal';
+import LoginPage from './components/Auth/LoginPage';
 import { I4CCommandView, FieldBeatOfficerView, BankNodalView } from './components/Roles/RoleViews';
 import { api, CyberNetraWebSocket } from './services/api';
 import { 
   ShieldAlert, Activity, CheckCircle, Radio, 
-  Layers, Bell, RefreshCw, Zap
+  Layers, Bell, RefreshCw, Zap, LogOut, User
 } from 'lucide-react';
 
 export default function App() {
+  // Auth — restore from sessionStorage on mount
+  const storedUser = (() => {
+    try { return JSON.parse(sessionStorage.getItem('cybernetra_user')); } catch { return null; }
+  })();
+  const [currentUser, setCurrentUser] = useState(storedUser);
+
   const [status, setStatus] = useState(null);
   const [hotspots, setHotspots] = useState([]);
   const [atms, setAtms] = useState([]);
   const [predictions, setPredictions] = useState([]);
   const [alerts, setAlerts] = useState([]);
   
-  const [activeRole, setActiveRole] = useState('i4c'); // 'i4c', 'lea', 'beat', 'bank'
+  const [activeRole, setActiveRole] = useState(storedUser?.role || 'i4c'); // 'i4c', 'lea', 'beat', 'bank'
   const [selectedPrediction, setSelectedPrediction] = useState(null);
   const [wsConnected, setWsConnected] = useState(false);
   const [soundEnabled, setSoundEnabled] = useState(true);
@@ -28,6 +36,7 @@ export default function App() {
   // Modals
   const [isInjectModalOpen, setIsInjectModalOpen] = useState(false);
   const [isAlertsOpen, setIsAlertsOpen] = useState(false);
+  const [isHelpOpen, setIsHelpOpen] = useState(false);
   const [graphComplaintId, setGraphComplaintId] = useState(null);
   const [dossierComplaintId, setDossierComplaintId] = useState(null);
 

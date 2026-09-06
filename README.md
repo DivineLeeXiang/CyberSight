@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🛡️ CYBER-NETRA
+# 👁️ CYBERSIGHT
 ### National Predictive Cybercrime Cash-Out Forecasting & Proactive Intervention Platform
 
 [![Python](https://img.shields.io/badge/Python-3.11%2B-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
@@ -9,6 +9,7 @@
 [![TailwindCSS](https://img.shields.io/badge/Tailwind-4.0-38B2AC.svg?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![SQLite](https://img.shields.io/badge/SQLite-3-003B57.svg?logo=sqlite&logoColor=white)](https://www.sqlite.org/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Graphify](https://img.shields.io/badge/Knowledge%20Graph-Graphify-6366f1.svg)](graphify-out/graph.html)
 
 **An AI-driven operational defense framework developed for the Indian Cyber Crime Coordination Centre (I4C), Ministry of Home Affairs (MHA), State Law Enforcement Agencies (LEAs), and the Citizen Financial Cyber Fraud Reporting and Management System (CFCFRMS / 1930).**
 
@@ -18,11 +19,11 @@
 
 ## 📌 Problem Statement Background
 
-The centralized **National Cybercrime Reporting Portal (NCRP)** currently receives **over 8,000 complaints daily**, predominantly involving financial cyber frauds (*Digital Arrest scams*, *Stock Investment fraud*, *Task/Work-from-Home scams*, *KYC phishing*, *Loan app extortion*). 
+The centralized **National Cybercrime Reporting Portal (NCRP)** currently receives **over 8,000 complaints daily**, predominantly involving financial cyber frauds (*Digital Arrest scams*, *Stock Investment fraud*, *Task/Work-from-Home scams*, *KYC phishing*, *Loan app extortion*).
 
 Stolen money is routed rapidly across multiple banks through Layer 1, Layer 2, and Layer 3 mule accounts, and physical cash is extracted via **ATMs, Micro-ATMs, and Customer Service Points (CSPs)** within the critical **35-minute to 2-hour "Golden Hour"**. Conventional reactive freezing arrives after funds are already gone.
 
-**CYBER-NETRA transforms the defense from reactive to proactive:**
+**CYBERSIGHT transforms the defense from reactive to proactive:**
 - **Forecasts likely cash withdrawal locations in advance** (ATM, Micro-ATM, Branch) using spatio-temporal AI models, Gaussian kernel density estimation, distance decay heuristics, and syndicate graph analysis.
 - **Estimates physical cash-out timeframes (ETA countdowns)** based on transaction velocity and layering patterns.
 - **Automates multi-agency interventions**: Instant geo-fenced PCR van dispatches and real-time CFCFRMS bank account freezes before cash is extracted.
@@ -54,6 +55,54 @@ flowchart TD
     Gateway --> WA[WhatsApp / Telegram SHO Incident Advisory]
     Gateway --> API[CFCFRMS 1-Click Bank Account Freeze API]
 ```
+
+---
+
+## 🕸️ Codebase Knowledge Graph
+
+> Generated with [graphify](https://github.com/safishamsi/graphify) — maps every component, API route, schema, and service as a navigable knowledge graph.
+
+**151 nodes · 301 edges · 9 communities** — 90% extracted via AST, 10% inferred (avg confidence: 0.94). No import cycles detected.
+
+### 🏛️ God Nodes — Core Abstractions (Most Connected)
+
+| Rank | Symbol | Edges | Role |
+|------|--------|-------|------|
+| 1 | `Complaint` | 13 | Central data model — NCRP complaint schema used by API, engine, and seeder |
+| 2 | `react` | 13 | Cross-community bridge — links all frontend components to package config |
+| 3 | `PredictiveAnalyticsEngine` | 12 | Heart of the AI system — connects to ATM, RiskLevel, Prediction, routes |
+| 4 | `RiskLevel` | 12 | Enum used by API routes, frontend, freeze logic, and dispatch |
+| 5 | `Prediction` | 12 | Output schema linking engine → alerts → frontend → interventions |
+| 6 | `lucide-react` | 12 | Icon library bridging component tree to package manifest |
+| 7 | `InterventionStatus` | 10 | Tracks dispatch/freeze state across API, feed, and bank portal |
+| 8 | `AlertDispatcherService` | 8 | Orchestrates SMS, WhatsApp, and CFCFRMS bank API dispatch |
+
+### 🔗 Surprising Connections (Graphify Discovered)
+
+- **`init_and_seed()`** → calls → **`generate_random_complaint()`**
+  *The DB seeder (`database/seed_db.py`) silently depends on the backend data generator service — a hidden cross-layer dependency.*
+
+- **`dispatch_unit()`** and **`freeze_account()`** both → use → **`AlertNotification`**
+  *Both intervention types funnel through the same alert schema, so every police dispatch and bank freeze shares one notification pathway.*
+
+- **`inject_custom_incident()`** → uses both **`Complaint`** AND **`LayerHop`**
+  *The scenario injector simultaneously touches the NCRP complaint model and the money-layering forensics schema — a deep integration point.*
+
+### 🗺️ 9 Detected Communities
+
+| Community | Nodes | Cohesion | Description |
+|-----------|-------|----------|-------------|
+| FastAPI Routes & Endpoints | 27 | 0.16 | All 16 API routes, WebSocket manager, request models |
+| React Frontend Components | 17 | 0.16 | App, LoginPage, all JSX component tree |
+| Frontend Config & Package | 26 | 0.08 | package.json, vite.config, index.html, oxlint |
+| AI Prediction Engine & Schemas | 15 | 0.12 | PredictiveAnalyticsEngine, Pydantic schemas, KDE logic |
+| Frontend Dependencies | 9 | 0.22 | react, leaflet, recharts, tailwindcss, lucide-react |
+| Data Generator & Seeder | 6 | 0.32 | Synthetic NCRP complaint generator + DB seeder |
+| WebSocket Real-Time Layer | 3 | 0.33 | ConnectionManager, websocket_endpoint, broadcast |
+| Linting & Code Quality | 5 | 0.33 | oxlint rules, react hooks rules |
+| App Orchestration & API Client | — | — | App.jsx root + CyberNetraWebSocket client |
+
+> **📂 Interactive Graph:** Open [`graphify-out/graph.html`](graphify-out/graph.html) in any browser — no server needed. Click any node to explore connections, filter by community, and trace data flows.
 
 ---
 
@@ -93,23 +142,27 @@ database/
 
 1. **🏛️ Official Government Light Mode Interface**:
    - Designed to **MHA / I4C / NIC standards** with the Indian National Tricolor stripe, high-contrast typography, and accessible data density.
-2. **🗺️ Tactical GIS Risk Heatmap**:
+2. **🔐 Secure Role-Based Login**:
+   - Session-based authentication gating the entire portal (sessionStorage — clears on tab close per government security standards).
+   - Four role levels: `I4C Apex Command`, `District Cyber Cell`, `Field Beat Officer`, `CFCFRMS Bank Nodal`.
+3. **🗺️ Tactical GIS Risk Heatmap**:
    - Clean CartoDB Positron cartography with live pulsing radar blips on targeted ATMs (🔴 CRITICAL `<30m`, 🟠 HIGH, 🟢 Intercepted).
    - Time horizon slider (`Live Now`, `+30m Forecast`, `+2h Forecast`, `Past 24h`).
    - One-click sector jump teleport to active crime corridors.
-3. **⚡ High-Efficiency Tools for Officials**:
+4. **⚡ High-Efficiency Tools for Officials**:
    - **Instant Search**: Search across Ack ID, ATM name, bank, pin code, or district.
    - **Batch Freeze**: Check multiple critical forecasts and execute simultaneous bank liens.
    - **CSV Export**: Export daily complaints and cash-out predictions for leadership briefings.
    - **Alert Audio Chime**: Control-room notification sound for incoming critical threats.
-4. **👥 Multi-Role Portals**:
+   - **Help / SOP Guide**: Built-in 5-tab user manual covering roles, SOPs, legal provisions, and security.
+5. **👥 Multi-Role Portals**:
    - **I4C Apex Strategic Command**: Nationwide KPI metrics and interstate syndicate correlations.
    - **District Cyber Cell (LEA)**: Detailed incident queue and dispatch orders.
    - **Field Beat Officer Mobile Desk**: High-contrast patrol cards with Google Maps GPS routing.
    - **CFCFRMS Bank Nodal Officer**: Queue of compromised accounts with 1-click legal freezes.
-5. **🕸️ Multi-Layer Money Trail Explorer**:
-   - Interactive visual graph tracing funds from Victim $\to$ Layer 1 $\to$ Layer 2 $\to$ Forecasted ATM.
-6. **📄 Statutory Intelligence Notice (Section 91 CrPC / Section 94 BNSS)**:
+6. **🕸️ Multi-Layer Money Trail Explorer**:
+   - Interactive visual graph tracing funds from Victim → Layer 1 → Layer 2 → Forecasted ATM.
+7. **📄 Statutory Intelligence Notice (Section 91 CrPC / Section 94 BNSS)**:
    - Official printable legal directive with digital verification hash.
 
 ---
@@ -122,8 +175,8 @@ database/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/cyber-netra.git
-cd cyber-netra
+git clone https://github.com/YOUR_USERNAME/cybersight.git
+cd cybersight
 ```
 
 ### 2. Setup Database & Datasets
@@ -136,43 +189,42 @@ cd ..
 ### 3. Setup and Run Backend (FastAPI)
 ```bash
 cd backend
-pip install -r requirements.txt  # Or: pip install fastapi uvicorn pydantic numpy networkx
+pip install -r requirements.txt
 python -m uvicorn main:app --host 127.0.0.1 --port 8000
 ```
-API Documentation will be available at: `http://127.0.0.1:8000/docs`
+API Documentation: `http://127.0.0.1:8000/docs`
 
 ### 4. Setup and Run Frontend (React + Vite)
-In a new terminal:
+In a **new terminal**:
 ```bash
 cd frontend
 npm install --legacy-peer-deps
 npm run dev -- --host 127.0.0.1 --port 5173
 ```
-Open your browser at: `http://127.0.0.1:5173`
+Open your browser at: **`http://127.0.0.1:5173`**
+
+### Demo Login Credentials
+
+| Role | Username | Password |
+|------|----------|----------|
+| I4C Apex Command | `I4C_ADMIN` | `CyberNetra@2026` |
+| District Cyber Cell | `LEA_OFFICER` | `Cyber@LEA2026` |
+| Field Beat Officer | `BEAT_PCR` | `Beat@PCR2026` |
+| CFCFRMS Bank Nodal | `BANK_NODAL` | `Bank@CFCFRMS2026` |
 
 ---
 
 ## 📤 Pushing to Your GitHub Repository
 
-To push this project to your new GitHub repository, run the following commands from the root directory:
-
 ```bash
-# 1. Initialize Git
+# Initialize Git (skip if already done)
 git init
-
-# 2. Add all files (respects .gitignore)
 git add .
-
-# 3. Create initial commit
-git commit -m "feat: initial release of CYBER-NETRA predictive cybercrime framework"
-
-# 4. Set main branch
+git commit -m "feat: initial release of CYBERSIGHT predictive cybercrime framework"
 git branch -M main
 
-# 5. Link your GitHub repository (replace with your repo URL)
-git remote add origin https://github.com/YOUR_USERNAME/cyber-netra.git
-
-# 6. Push to GitHub
+# Link your GitHub repository
+git remote add origin https://github.com/YOUR_USERNAME/cybersight.git
 git push -u origin main
 ```
 

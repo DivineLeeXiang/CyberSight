@@ -1,0 +1,4999 @@
+{
+  "nodes": [
+    {
+      "id": "backend_main",
+      "label": "main.py",
+      "file_type": "code",
+      "source_file": "backend/main.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_main_connectionmanager",
+      "label": "ConnectionManager",
+      "file_type": "code",
+      "source_file": "backend/main.py",
+      "source_location": "L52",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_main_connectionmanager_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "backend/main.py",
+      "source_location": "L53",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_main_connectionmanager_connect",
+      "label": ".connect()",
+      "file_type": "code",
+      "source_file": "backend/main.py",
+      "source_location": "L56",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "websocket",
+      "label": "WebSocket",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_main_connectionmanager_disconnect",
+      "label": ".disconnect()",
+      "file_type": "code",
+      "source_file": "backend/main.py",
+      "source_location": "L60",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_main_connectionmanager_broadcast",
+      "label": ".broadcast()",
+      "file_type": "code",
+      "source_file": "backend/main.py",
+      "source_location": "L64",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_main_seed_initial_data",
+      "label": "seed_initial_data()",
+      "file_type": "code",
+      "source_file": "backend/main.py",
+      "source_location": "L73",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "get",
+      "label": "get",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_main_get_system_status",
+      "label": "get_system_status()",
+      "file_type": "code",
+      "source_file": "backend/main.py",
+      "source_location": "L97",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_main_get_hotspots",
+      "label": "get_hotspots()",
+      "file_type": "code",
+      "source_file": "backend/main.py",
+      "source_location": "L118",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_main_get_atms",
+      "label": "get_atms()",
+      "file_type": "code",
+      "source_file": "backend/main.py",
+      "source_location": "L125",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_main_get_complaints",
+      "label": "get_complaints()",
+      "file_type": "code",
+      "source_file": "backend/main.py",
+      "source_location": "L156",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_main_get_active_predictions",
+      "label": "get_active_predictions()",
+      "file_type": "code",
+      "source_file": "backend/main.py",
+      "source_location": "L165",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_main_get_complaint_graph",
+      "label": "get_complaint_graph()",
+      "file_type": "code",
+      "source_file": "backend/main.py",
+      "source_location": "L178",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "post",
+      "label": "post",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_main_dispatch_unit",
+      "label": "dispatch_unit()",
+      "file_type": "code",
+      "source_file": "backend/main.py",
+      "source_location": "L183",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_main_freeze_account",
+      "label": "freeze_account()",
+      "file_type": "code",
+      "source_file": "backend/main.py",
+      "source_location": "L225",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_main_customincidentinput",
+      "label": "CustomIncidentInput",
+      "file_type": "code",
+      "source_file": "backend/main.py",
+      "source_location": "L269",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_main_py_basemodel",
+      "label": "BaseModel",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_main_inject_custom_incident",
+      "label": "inject_custom_incident()",
+      "file_type": "code",
+      "source_file": "backend/main.py",
+      "source_location": "L279",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_main_get_alerts",
+      "label": "get_alerts()",
+      "file_type": "code",
+      "source_file": "backend/main.py",
+      "source_location": "L364",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_main_get_actionable_intelligence_dossier",
+      "label": "get_actionable_intelligence_dossier()",
+      "file_type": "code",
+      "source_file": "backend/main.py",
+      "source_location": "L368",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_main_websocket_endpoint",
+      "label": "websocket_endpoint()",
+      "file_type": "code",
+      "source_file": "backend/main.py",
+      "source_location": "L394",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_main_rationale_74",
+      "label": "Seeds initial 15 complaints with predictions, multi-layer graphs, and alerts.",
+      "file_type": "rationale",
+      "source_file": "backend/main.py",
+      "source_location": "L74",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_main_rationale_280",
+      "label": "Allows manual injection of a high-priority cybercrime complaint to test…",
+      "file_type": "rationale",
+      "source_file": "backend/main.py",
+      "source_location": "L280",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_main_rationale_369",
+      "label": "Generates Section 91 CrPC / Section 94 BNSS Legal Actionable Intelligence…",
+      "file_type": "rationale",
+      "source_file": "backend/main.py",
+      "source_location": "L369",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_models_predictive_engine",
+      "label": "predictive_engine.py",
+      "file_type": "code",
+      "source_file": "backend/models/predictive_engine.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_models_predictive_engine_haversine_distance_km",
+      "label": "haversine_distance_km()",
+      "file_type": "code",
+      "source_file": "backend/models/predictive_engine.py",
+      "source_location": "L11",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_models_predictive_engine_predictiveanalyticsengine",
+      "label": "PredictiveAnalyticsEngine",
+      "file_type": "code",
+      "source_file": "backend/models/predictive_engine.py",
+      "source_location": "L22",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_models_predictive_engine_predictiveanalyticsengine_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "backend/models/predictive_engine.py",
+      "source_location": "L23",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_models_predictive_engine_predictiveanalyticsengine_load_reference_data",
+      "label": ".load_reference_data()",
+      "file_type": "code",
+      "source_file": "backend/models/predictive_engine.py",
+      "source_location": "L29",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_models_predictive_engine_predictiveanalyticsengine_find_best_hotspot_match",
+      "label": "._find_best_hotspot_match()",
+      "file_type": "code",
+      "source_file": "backend/models/predictive_engine.py",
+      "source_location": "L42",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_models_predictive_engine_py_any",
+      "label": "Any",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_models_predictive_engine_predictiveanalyticsengine_predict_cashout",
+      "label": ".predict_cashout()",
+      "file_type": "code",
+      "source_file": "backend/models/predictive_engine.py",
+      "source_location": "L69",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_models_predictive_engine_rationale_12",
+      "label": "Calculate the great circle distance between two points in km.",
+      "file_type": "rationale",
+      "source_file": "backend/models/predictive_engine.py",
+      "source_location": "L12",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_models_predictive_engine_rationale_43",
+      "label": "Matches complaint to most likely syndicate hub based on crime category, bank,…",
+      "file_type": "rationale",
+      "source_file": "backend/models/predictive_engine.py",
+      "source_location": "L43",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_models_predictive_engine_rationale_70",
+      "label": "AI/ML predictive model to forecast: 1. Likely Cash-Out Hotspot & Specific…",
+      "file_type": "rationale",
+      "source_file": "backend/models/predictive_engine.py",
+      "source_location": "L70",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_models_schemas",
+      "label": "schemas.py",
+      "file_type": "code",
+      "source_file": "backend/models/schemas.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_models_schemas_crimecategory",
+      "label": "CrimeCategory",
+      "file_type": "code",
+      "source_file": "backend/models/schemas.py",
+      "source_location": "L6",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "str",
+      "label": "str",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "enum",
+      "label": "Enum",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_models_schemas_risklevel",
+      "label": "RiskLevel",
+      "file_type": "code",
+      "source_file": "backend/models/schemas.py",
+      "source_location": "L16",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_models_schemas_interventionstatus",
+      "label": "InterventionStatus",
+      "file_type": "code",
+      "source_file": "backend/models/schemas.py",
+      "source_location": "L22",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_models_schemas_atmtype",
+      "label": "ATMType",
+      "file_type": "code",
+      "source_file": "backend/models/schemas.py",
+      "source_location": "L30",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_models_schemas_atm",
+      "label": "ATM",
+      "file_type": "code",
+      "source_file": "backend/models/schemas.py",
+      "source_location": "L38",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_models_schemas_py_basemodel",
+      "label": "BaseModel",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_models_schemas_layerhop",
+      "label": "LayerHop",
+      "file_type": "code",
+      "source_file": "backend/models/schemas.py",
+      "source_location": "L56",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_models_schemas_complaint",
+      "label": "Complaint",
+      "file_type": "code",
+      "source_file": "backend/models/schemas.py",
+      "source_location": "L68",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_models_schemas_prediction",
+      "label": "Prediction",
+      "file_type": "code",
+      "source_file": "backend/models/schemas.py",
+      "source_location": "L87",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_models_schemas_dispatchrequest",
+      "label": "DispatchRequest",
+      "file_type": "code",
+      "source_file": "backend/models/schemas.py",
+      "source_location": "L109",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_models_schemas_freezerequest",
+      "label": "FreezeRequest",
+      "file_type": "code",
+      "source_file": "backend/models/schemas.py",
+      "source_location": "L116",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_models_schemas_alertnotification",
+      "label": "AlertNotification",
+      "file_type": "code",
+      "source_file": "backend/models/schemas.py",
+      "source_location": "L124",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_services_alert_dispatcher",
+      "label": "alert_dispatcher.py",
+      "file_type": "code",
+      "source_file": "backend/services/alert_dispatcher.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_services_alert_dispatcher_alertdispatcherservice",
+      "label": "AlertDispatcherService",
+      "file_type": "code",
+      "source_file": "backend/services/alert_dispatcher.py",
+      "source_location": "L6",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_services_alert_dispatcher_alertdispatcherservice_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "backend/services/alert_dispatcher.py",
+      "source_location": "L7",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_services_alert_dispatcher_alertdispatcherservice_dispatch_prediction_alert",
+      "label": ".dispatch_prediction_alert()",
+      "file_type": "code",
+      "source_file": "backend/services/alert_dispatcher.py",
+      "source_location": "L10",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_services_alert_dispatcher_alertdispatcherservice_get_recent_alerts",
+      "label": ".get_recent_alerts()",
+      "file_type": "code",
+      "source_file": "backend/services/alert_dispatcher.py",
+      "source_location": "L81",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_services_alert_dispatcher_rationale_11",
+      "label": "Dispatches automated SMS, WhatsApp, and CFCFRMS Bank API alerts upon high-risk…",
+      "file_type": "rationale",
+      "source_file": "backend/services/alert_dispatcher.py",
+      "source_location": "L11",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_services_data_generator",
+      "label": "data_generator.py",
+      "file_type": "code",
+      "source_file": "backend/services/data_generator.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_services_data_generator_generate_random_complaint",
+      "label": "generate_random_complaint()",
+      "file_type": "code",
+      "source_file": "backend/services/data_generator.py",
+      "source_location": "L54",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_services_data_generator_rationale_55",
+      "label": "Generates a realistic NCRP/1930 fraud complaint with multi-layer mule trail.",
+      "file_type": "rationale",
+      "source_file": "backend/services/data_generator.py",
+      "source_location": "L55",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_services_graph_forensics",
+      "label": "graph_forensics.py",
+      "file_type": "code",
+      "source_file": "backend/services/graph_forensics.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_services_graph_forensics_graphforensicsservice",
+      "label": "GraphForensicsService",
+      "file_type": "code",
+      "source_file": "backend/services/graph_forensics.py",
+      "source_location": "L5",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_services_graph_forensics_graphforensicsservice_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "backend/services/graph_forensics.py",
+      "source_location": "L6",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_services_graph_forensics_graphforensicsservice_add_complaint_to_graph",
+      "label": ".add_complaint_to_graph()",
+      "file_type": "code",
+      "source_file": "backend/services/graph_forensics.py",
+      "source_location": "L9",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_services_graph_forensics_graphforensicsservice_get_complaint_subgraph",
+      "label": ".get_complaint_subgraph()",
+      "file_type": "code",
+      "source_file": "backend/services/graph_forensics.py",
+      "source_location": "L68",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_services_graph_forensics_py_any",
+      "label": "Any",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_services_graph_forensics_rationale_10",
+      "label": "Adds victim, layered mule hops, and predicted cashout ATM to the directed graph.",
+      "file_type": "rationale",
+      "source_file": "backend/services/graph_forensics.py",
+      "source_location": "L10",
+      "_origin": "ast"
+    },
+    {
+      "id": "backend_services_graph_forensics_rationale_69",
+      "label": "Returns JSON-serializable nodes and edges for a specific complaint.",
+      "file_type": "rationale",
+      "source_file": "backend/services/graph_forensics.py",
+      "source_location": "L69",
+      "_origin": "ast"
+    },
+    {
+      "id": "database_seed_db",
+      "label": "seed_db.py",
+      "file_type": "code",
+      "source_file": "database/seed_db.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "database_seed_db_init_and_seed",
+      "label": "init_and_seed()",
+      "file_type": "code",
+      "source_file": "database/seed_db.py",
+      "source_location": "L82",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_oxlintrc",
+      "label": ".oxlintrc.json",
+      "file_type": "code",
+      "source_file": "frontend/.oxlintrc.json",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_oxlintrc_schema",
+      "label": "$schema",
+      "file_type": "code",
+      "source_file": "frontend/.oxlintrc.json",
+      "source_location": "L2",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_oxlintrc_plugins",
+      "label": "plugins",
+      "file_type": "code",
+      "source_file": "frontend/.oxlintrc.json",
+      "source_location": "L3",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_oxlintrc_rules",
+      "label": "rules",
+      "file_type": "code",
+      "source_file": "frontend/.oxlintrc.json",
+      "source_location": "L4",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_oxlintrc_rules_react_rules_of_hooks",
+      "label": "react/rules-of-hooks",
+      "file_type": "code",
+      "source_file": "frontend/.oxlintrc.json",
+      "source_location": "L5",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_oxlintrc_rules_react_only_export_components",
+      "label": "react/only-export-components",
+      "file_type": "code",
+      "source_file": "frontend/.oxlintrc.json",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_package",
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_package_name",
+      "label": "name",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L2",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_package_private",
+      "label": "private",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L3",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_package_version",
+      "label": "version",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L4",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_package_type",
+      "label": "type",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L5",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_package_scripts",
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L6",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_package_scripts_dev",
+      "label": "dev",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L7",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_package_scripts_build",
+      "label": "build",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L8",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_package_scripts_lint",
+      "label": "lint",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L9",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_package_scripts_preview",
+      "label": "preview",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L10",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_package_dependencies",
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L12",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_package_dependencies_tailwindcss_vite",
+      "label": "@tailwindcss/vite",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L13",
+      "_origin": "ast"
+    },
+    {
+      "id": "ref_tailwindcss_vite",
+      "label": "@tailwindcss/vite",
+      "file_type": "concept",
+      "source_file": "frontend/package.json",
+      "source_location": "L13",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_package_dependencies_leaflet",
+      "label": "leaflet",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L14",
+      "_origin": "ast"
+    },
+    {
+      "id": "ref_leaflet",
+      "label": "leaflet",
+      "file_type": "concept",
+      "source_file": "frontend/package.json",
+      "source_location": "L14",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_package_dependencies_lucide_react",
+      "label": "lucide-react",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L15",
+      "_origin": "ast"
+    },
+    {
+      "id": "ref_lucide_react",
+      "label": "lucide-react",
+      "file_type": "concept",
+      "source_file": "frontend/package.json",
+      "source_location": "L15",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_package_dependencies_react",
+      "label": "react",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L16",
+      "_origin": "ast"
+    },
+    {
+      "id": "ref_react",
+      "label": "react",
+      "file_type": "concept",
+      "source_file": "frontend/package.json",
+      "source_location": "L16",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_package_dependencies_react_dom",
+      "label": "react-dom",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L17",
+      "_origin": "ast"
+    },
+    {
+      "id": "ref_react_dom",
+      "label": "react-dom",
+      "file_type": "concept",
+      "source_file": "frontend/package.json",
+      "source_location": "L17",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_package_dependencies_react_leaflet",
+      "label": "react-leaflet",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L18",
+      "_origin": "ast"
+    },
+    {
+      "id": "ref_react_leaflet",
+      "label": "react-leaflet",
+      "file_type": "concept",
+      "source_file": "frontend/package.json",
+      "source_location": "L18",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_package_dependencies_recharts",
+      "label": "recharts",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L19",
+      "_origin": "ast"
+    },
+    {
+      "id": "ref_recharts",
+      "label": "recharts",
+      "file_type": "concept",
+      "source_file": "frontend/package.json",
+      "source_location": "L19",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_package_dependencies_tailwindcss",
+      "label": "tailwindcss",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L20",
+      "_origin": "ast"
+    },
+    {
+      "id": "ref_tailwindcss",
+      "label": "tailwindcss",
+      "file_type": "concept",
+      "source_file": "frontend/package.json",
+      "source_location": "L20",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_package_devdependencies",
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L22",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_package_devdependencies_types_react",
+      "label": "@types/react",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L23",
+      "_origin": "ast"
+    },
+    {
+      "id": "ref_types_react",
+      "label": "@types/react",
+      "file_type": "concept",
+      "source_file": "frontend/package.json",
+      "source_location": "L23",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_package_devdependencies_types_react_dom",
+      "label": "@types/react-dom",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L24",
+      "_origin": "ast"
+    },
+    {
+      "id": "ref_types_react_dom",
+      "label": "@types/react-dom",
+      "file_type": "concept",
+      "source_file": "frontend/package.json",
+      "source_location": "L24",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_package_devdependencies_vitejs_plugin_react",
+      "label": "@vitejs/plugin-react",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L25",
+      "_origin": "ast"
+    },
+    {
+      "id": "ref_vitejs_plugin_react",
+      "label": "@vitejs/plugin-react",
+      "file_type": "concept",
+      "source_file": "frontend/package.json",
+      "source_location": "L25",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_package_devdependencies_oxlint",
+      "label": "oxlint",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L26",
+      "_origin": "ast"
+    },
+    {
+      "id": "ref_oxlint",
+      "label": "oxlint",
+      "file_type": "concept",
+      "source_file": "frontend/package.json",
+      "source_location": "L26",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_package_devdependencies_vite",
+      "label": "vite",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L27",
+      "_origin": "ast"
+    },
+    {
+      "id": "ref_vite",
+      "label": "vite",
+      "file_type": "concept",
+      "source_file": "frontend/package.json",
+      "source_location": "L27",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app",
+      "label": "App.jsx",
+      "file_type": "code",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_app_app",
+      "label": "App()",
+      "file_type": "code",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L18",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_components_alerts_alertsdrawer",
+      "label": "AlertsDrawer.jsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/Alerts/AlertsDrawer.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_components_alerts_alertsdrawer_alertsdrawer",
+      "label": "AlertsDrawer()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/Alerts/AlertsDrawer.jsx",
+      "source_location": "L7",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_components_auth_loginpage",
+      "label": "LoginPage.jsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/Auth/LoginPage.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_components_auth_loginpage_demo_credentials",
+      "label": "DEMO_CREDENTIALS",
+      "file_type": "code",
+      "source_file": "frontend/src/components/Auth/LoginPage.jsx",
+      "source_location": "L7",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_components_auth_loginpage_loginpage",
+      "label": "LoginPage()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/Auth/LoginPage.jsx",
+      "source_location": "L46",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_components_feed_predictivecashoutfeed",
+      "label": "PredictiveCashoutFeed.jsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/Feed/PredictiveCashoutFeed.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_components_feed_predictivecashoutfeed_predictivecashoutfeed",
+      "label": "PredictiveCashoutFeed()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/Feed/PredictiveCashoutFeed.jsx",
+      "source_location": "L7",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_components_graph_moneylayeringgraph",
+      "label": "MoneyLayeringGraph.jsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/Graph/MoneyLayeringGraph.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_components_graph_moneylayeringgraph_moneylayeringgraph",
+      "label": "MoneyLayeringGraph()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/Graph/MoneyLayeringGraph.jsx",
+      "source_location": "L8",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_components_heatmap_tacticalgismap",
+      "label": "TacticalGISMap.jsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/Heatmap/TacticalGISMap.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_components_heatmap_tacticalgismap_tacticalgismap",
+      "label": "TacticalGISMap()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/Heatmap/TacticalGISMap.jsx",
+      "source_location": "L8",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_components_modals_dossiermodal",
+      "label": "DossierModal.jsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/Modals/DossierModal.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_components_modals_dossiermodal_dossiermodal",
+      "label": "DossierModal()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/Modals/DossierModal.jsx",
+      "source_location": "L8",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_components_modals_helpguidemodal",
+      "label": "HelpGuideModal.jsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/Modals/HelpGuideModal.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_components_modals_helpguidemodal_helpguidemodal",
+      "label": "HelpGuideModal()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/Modals/HelpGuideModal.jsx",
+      "source_location": "L7",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_components_modals_injectincidentmodal",
+      "label": "InjectIncidentModal.jsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/Modals/InjectIncidentModal.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_components_modals_injectincidentmodal_crime_presets",
+      "label": "CRIME_PRESETS",
+      "file_type": "code",
+      "source_file": "frontend/src/components/Modals/InjectIncidentModal.jsx",
+      "source_location": "L8",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_components_modals_injectincidentmodal_injectincidentmodal",
+      "label": "InjectIncidentModal()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/Modals/InjectIncidentModal.jsx",
+      "source_location": "L47",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_components_navbar",
+      "label": "Navbar.jsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/Navbar.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_components_navbar_navbar",
+      "label": "Navbar()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/Navbar.jsx",
+      "source_location": "L7",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_components_roles_roleviews",
+      "label": "RoleViews.jsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/Roles/RoleViews.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_components_roles_roleviews_i4ccommandview",
+      "label": "I4CCommandView()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/Roles/RoleViews.jsx",
+      "source_location": "L7",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_components_roles_roleviews_fieldbeatofficerview",
+      "label": "FieldBeatOfficerView()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/Roles/RoleViews.jsx",
+      "source_location": "L118",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_components_roles_roleviews_banknodalview",
+      "label": "BankNodalView()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/Roles/RoleViews.jsx",
+      "source_location": "L217",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_main",
+      "label": "main.jsx",
+      "file_type": "code",
+      "source_file": "frontend/src/main.jsx",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_services_api",
+      "label": "api.js",
+      "file_type": "code",
+      "source_file": "frontend/src/services/api.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_services_api_api",
+      "label": "api",
+      "file_type": "code",
+      "source_file": "frontend/src/services/api.js",
+      "source_location": "L4",
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_services_api_cybernetrawebsocket",
+      "label": "CyberNetraWebSocket",
+      "file_type": "code",
+      "source_file": "frontend/src/services/api.js",
+      "source_location": "L73",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_services_api_cybernetrawebsocket_constructor",
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "frontend/src/services/api.js",
+      "source_location": "L74",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_services_api_cybernetrawebsocket_connect",
+      "label": ".connect()",
+      "file_type": "code",
+      "source_file": "frontend/src/services/api.js",
+      "source_location": "L82",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_services_api_cybernetrawebsocket_reconnect",
+      "label": ".reconnect()",
+      "file_type": "code",
+      "source_file": "frontend/src/services/api.js",
+      "source_location": "L112",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_src_services_api_cybernetrawebsocket_disconnect",
+      "label": ".disconnect()",
+      "file_type": "code",
+      "source_file": "frontend/src/services/api.js",
+      "source_location": "L119",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "frontend_vite_config",
+      "label": "vite.config.js",
+      "file_type": "code",
+      "source_file": "frontend/vite.config.js",
+      "source_location": "L1",
+      "_origin": "ast"
+    }
+  ],
+  "edges": [
+    {
+      "source": "backend_main",
+      "target": "os",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "asyncio",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "random",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "uuid",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "datetime",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "fastapi",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "fastapi_middleware_cors",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "pydantic",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "models_schemas",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "models_predictive_engine",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "services_graph_forensics",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "services_alert_dispatcher",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "services_data_generator",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "backend_main_connectionmanager",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L52",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_connectionmanager",
+      "target": "backend_main_connectionmanager_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L53",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_connectionmanager",
+      "target": "backend_main_connectionmanager_connect",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L56",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_connectionmanager_connect",
+      "target": "websocket",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L56",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_connectionmanager",
+      "target": "backend_main_connectionmanager_disconnect",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L60",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_connectionmanager_disconnect",
+      "target": "websocket",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L60",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_connectionmanager",
+      "target": "backend_main_connectionmanager_broadcast",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L64",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "backend_main_seed_initial_data",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L73",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_get_system_status",
+      "target": "get",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L96",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "backend_main_get_system_status",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L97",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_get_hotspots",
+      "target": "get",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L117",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "backend_main_get_hotspots",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L118",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_get_atms",
+      "target": "get",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L124",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "backend_main_get_atms",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L125",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_get_complaints",
+      "target": "get",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L155",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "backend_main_get_complaints",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L156",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_get_active_predictions",
+      "target": "get",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L164",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "backend_main_get_active_predictions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L165",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_get_complaint_graph",
+      "target": "get",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L177",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "backend_main_get_complaint_graph",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L178",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_dispatch_unit",
+      "target": "post",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L182",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "backend_main_dispatch_unit",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L183",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_dispatch_unit",
+      "target": "backend_models_schemas_dispatchrequest",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L183",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_freeze_account",
+      "target": "post",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L224",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "backend_main_freeze_account",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L225",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_freeze_account",
+      "target": "backend_models_schemas_freezerequest",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L225",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "backend_main_customincidentinput",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L269",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_customincidentinput",
+      "target": "backend_main_py_basemodel",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L269",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_inject_custom_incident",
+      "target": "post",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L278",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "backend_main_inject_custom_incident",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L279",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_inject_custom_incident",
+      "target": "backend_main_customincidentinput",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L279",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_get_alerts",
+      "target": "get",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L363",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "backend_main_get_alerts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L364",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_get_actionable_intelligence_dossier",
+      "target": "get",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L367",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "backend_main_get_actionable_intelligence_dossier",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L368",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_websocket_endpoint",
+      "target": "websocket",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L393",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "backend_main_websocket_endpoint",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L394",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_websocket_endpoint",
+      "target": "websocket",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L394",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_rationale_74",
+      "target": "backend_main_seed_initial_data",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L74",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_rationale_280",
+      "target": "backend_main_inject_custom_incident",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L280",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_rationale_369",
+      "target": "backend_main_get_actionable_intelligence_dossier",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L369",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_predictive_engine",
+      "target": "math",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/predictive_engine.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_predictive_engine",
+      "target": "json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/predictive_engine.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_predictive_engine",
+      "target": "os",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/predictive_engine.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_predictive_engine",
+      "target": "random",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/predictive_engine.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_predictive_engine",
+      "target": "datetime",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/predictive_engine.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_predictive_engine",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/predictive_engine.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_predictive_engine",
+      "target": "models_schemas",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/predictive_engine.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_predictive_engine",
+      "target": "backend_models_predictive_engine_haversine_distance_km",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/predictive_engine.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_predictive_engine",
+      "target": "backend_models_predictive_engine_predictiveanalyticsengine",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/predictive_engine.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_predictive_engine_predictiveanalyticsengine",
+      "target": "backend_models_predictive_engine_predictiveanalyticsengine_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/predictive_engine.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_predictive_engine_predictiveanalyticsengine",
+      "target": "backend_models_predictive_engine_predictiveanalyticsengine_load_reference_data",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/predictive_engine.py",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_predictive_engine_predictiveanalyticsengine",
+      "target": "backend_models_predictive_engine_predictiveanalyticsengine_find_best_hotspot_match",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/predictive_engine.py",
+      "source_location": "L42",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_predictive_engine_predictiveanalyticsengine_find_best_hotspot_match",
+      "target": "backend_models_schemas_complaint",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/predictive_engine.py",
+      "source_location": "L42",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_predictive_engine_predictiveanalyticsengine_find_best_hotspot_match",
+      "target": "backend_models_predictive_engine_py_any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/predictive_engine.py",
+      "source_location": "L42",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_predictive_engine_predictiveanalyticsengine",
+      "target": "backend_models_predictive_engine_predictiveanalyticsengine_predict_cashout",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/predictive_engine.py",
+      "source_location": "L69",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_predictive_engine_predictiveanalyticsengine_predict_cashout",
+      "target": "backend_models_schemas_complaint",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/predictive_engine.py",
+      "source_location": "L69",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_predictive_engine_predictiveanalyticsengine_predict_cashout",
+      "target": "backend_models_schemas_prediction",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/predictive_engine.py",
+      "source_location": "L69",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_predictive_engine_predictiveanalyticsengine_init",
+      "target": "backend_models_predictive_engine_predictiveanalyticsengine_load_reference_data",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/predictive_engine.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_predictive_engine_predictiveanalyticsengine_predict_cashout",
+      "target": "backend_models_predictive_engine_predictiveanalyticsengine_find_best_hotspot_match",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/predictive_engine.py",
+      "source_location": "L78",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_predictive_engine_predictiveanalyticsengine_predict_cashout",
+      "target": "backend_models_predictive_engine_haversine_distance_km",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/predictive_engine.py",
+      "source_location": "L85",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_predictive_engine_predictiveanalyticsengine_predict_cashout",
+      "target": "backend_models_schemas_prediction",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/predictive_engine.py",
+      "source_location": "L144",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_predictive_engine_rationale_12",
+      "target": "backend_models_predictive_engine_haversine_distance_km",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/predictive_engine.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_predictive_engine_rationale_43",
+      "target": "backend_models_predictive_engine_predictiveanalyticsengine_find_best_hotspot_match",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/predictive_engine.py",
+      "source_location": "L43",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_predictive_engine_rationale_70",
+      "target": "backend_models_predictive_engine_predictiveanalyticsengine_predict_cashout",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/predictive_engine.py",
+      "source_location": "L70",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_schemas",
+      "target": "pydantic",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/schemas.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_schemas",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/schemas.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_schemas",
+      "target": "datetime",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/schemas.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_schemas",
+      "target": "enum",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/schemas.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_schemas",
+      "target": "backend_models_schemas_crimecategory",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/schemas.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_schemas_crimecategory",
+      "target": "str",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/schemas.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_schemas_crimecategory",
+      "target": "enum",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/schemas.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_schemas",
+      "target": "backend_models_schemas_risklevel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/schemas.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_schemas_risklevel",
+      "target": "str",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/schemas.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_schemas_risklevel",
+      "target": "enum",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/schemas.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_schemas",
+      "target": "backend_models_schemas_interventionstatus",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/schemas.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_schemas_interventionstatus",
+      "target": "str",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/schemas.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_schemas_interventionstatus",
+      "target": "enum",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/schemas.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_schemas",
+      "target": "backend_models_schemas_atmtype",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/schemas.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_schemas_atmtype",
+      "target": "str",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/schemas.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_schemas_atmtype",
+      "target": "enum",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/schemas.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_schemas",
+      "target": "backend_models_schemas_atm",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/schemas.py",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_schemas_atm",
+      "target": "backend_models_schemas_py_basemodel",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/schemas.py",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_schemas",
+      "target": "backend_models_schemas_layerhop",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/schemas.py",
+      "source_location": "L56",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_schemas_layerhop",
+      "target": "backend_models_schemas_py_basemodel",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/schemas.py",
+      "source_location": "L56",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_schemas",
+      "target": "backend_models_schemas_complaint",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/schemas.py",
+      "source_location": "L68",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_schemas_complaint",
+      "target": "backend_models_schemas_py_basemodel",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/schemas.py",
+      "source_location": "L68",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_schemas",
+      "target": "backend_models_schemas_prediction",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/schemas.py",
+      "source_location": "L87",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_schemas_prediction",
+      "target": "backend_models_schemas_py_basemodel",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/schemas.py",
+      "source_location": "L87",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_schemas",
+      "target": "backend_models_schemas_dispatchrequest",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/schemas.py",
+      "source_location": "L109",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_schemas_dispatchrequest",
+      "target": "backend_models_schemas_py_basemodel",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/schemas.py",
+      "source_location": "L109",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_schemas",
+      "target": "backend_models_schemas_freezerequest",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/schemas.py",
+      "source_location": "L116",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_schemas_freezerequest",
+      "target": "backend_models_schemas_py_basemodel",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/schemas.py",
+      "source_location": "L116",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_schemas",
+      "target": "backend_models_schemas_alertnotification",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/schemas.py",
+      "source_location": "L124",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_schemas_alertnotification",
+      "target": "backend_models_schemas_py_basemodel",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/schemas.py",
+      "source_location": "L124",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_alert_dispatcher",
+      "target": "uuid",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/services/alert_dispatcher.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_alert_dispatcher",
+      "target": "datetime",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/services/alert_dispatcher.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_alert_dispatcher",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/services/alert_dispatcher.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_alert_dispatcher",
+      "target": "models_schemas",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/services/alert_dispatcher.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_alert_dispatcher",
+      "target": "backend_services_alert_dispatcher_alertdispatcherservice",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/services/alert_dispatcher.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_alert_dispatcher_alertdispatcherservice",
+      "target": "backend_services_alert_dispatcher_alertdispatcherservice_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/services/alert_dispatcher.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_alert_dispatcher_alertdispatcherservice",
+      "target": "backend_services_alert_dispatcher_alertdispatcherservice_dispatch_prediction_alert",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/services/alert_dispatcher.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_alert_dispatcher_alertdispatcherservice_dispatch_prediction_alert",
+      "target": "backend_models_schemas_prediction",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/services/alert_dispatcher.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_alert_dispatcher_alertdispatcherservice_dispatch_prediction_alert",
+      "target": "backend_models_schemas_alertnotification",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/services/alert_dispatcher.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_alert_dispatcher_alertdispatcherservice",
+      "target": "backend_services_alert_dispatcher_alertdispatcherservice_get_recent_alerts",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/services/alert_dispatcher.py",
+      "source_location": "L81",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_alert_dispatcher_alertdispatcherservice_get_recent_alerts",
+      "target": "backend_models_schemas_alertnotification",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/services/alert_dispatcher.py",
+      "source_location": "L81",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_alert_dispatcher_alertdispatcherservice_dispatch_prediction_alert",
+      "target": "backend_models_schemas_alertnotification",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/services/alert_dispatcher.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_alert_dispatcher_rationale_11",
+      "target": "backend_services_alert_dispatcher_alertdispatcherservice_dispatch_prediction_alert",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/services/alert_dispatcher.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_data_generator",
+      "target": "random",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/services/data_generator.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_data_generator",
+      "target": "uuid",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/services/data_generator.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_data_generator",
+      "target": "datetime",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/services/data_generator.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_data_generator",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/services/data_generator.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_data_generator",
+      "target": "models_schemas",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/services/data_generator.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_data_generator",
+      "target": "backend_services_data_generator_generate_random_complaint",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/services/data_generator.py",
+      "source_location": "L54",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_data_generator_generate_random_complaint",
+      "target": "backend_models_schemas_complaint",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/services/data_generator.py",
+      "source_location": "L54",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_data_generator_generate_random_complaint",
+      "target": "backend_models_schemas_complaint",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/services/data_generator.py",
+      "source_location": "L107",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_data_generator_rationale_55",
+      "target": "backend_services_data_generator_generate_random_complaint",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/services/data_generator.py",
+      "source_location": "L55",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_graph_forensics",
+      "target": "networkx",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/services/graph_forensics.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_graph_forensics",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/services/graph_forensics.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_graph_forensics",
+      "target": "models_schemas",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/services/graph_forensics.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_graph_forensics",
+      "target": "backend_services_graph_forensics_graphforensicsservice",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/services/graph_forensics.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_graph_forensics_graphforensicsservice",
+      "target": "backend_services_graph_forensics_graphforensicsservice_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/services/graph_forensics.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_graph_forensics_graphforensicsservice",
+      "target": "backend_services_graph_forensics_graphforensicsservice_add_complaint_to_graph",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/services/graph_forensics.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_graph_forensics_graphforensicsservice_add_complaint_to_graph",
+      "target": "backend_models_schemas_complaint",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/services/graph_forensics.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_graph_forensics_graphforensicsservice_add_complaint_to_graph",
+      "target": "backend_models_schemas_prediction",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/services/graph_forensics.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_graph_forensics_graphforensicsservice",
+      "target": "backend_services_graph_forensics_graphforensicsservice_get_complaint_subgraph",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/services/graph_forensics.py",
+      "source_location": "L68",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_graph_forensics_graphforensicsservice_get_complaint_subgraph",
+      "target": "backend_services_graph_forensics_py_any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/services/graph_forensics.py",
+      "source_location": "L68",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_graph_forensics_rationale_10",
+      "target": "backend_services_graph_forensics_graphforensicsservice_add_complaint_to_graph",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/services/graph_forensics.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_graph_forensics_rationale_69",
+      "target": "backend_services_graph_forensics_graphforensicsservice_get_complaint_subgraph",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/services/graph_forensics.py",
+      "source_location": "L69",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "database_seed_db",
+      "target": "sqlite3",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "database/seed_db.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "database_seed_db",
+      "target": "json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "database/seed_db.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "database_seed_db",
+      "target": "csv",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "database/seed_db.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "database_seed_db",
+      "target": "os",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "database/seed_db.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "database_seed_db",
+      "target": "sys",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "database/seed_db.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "database_seed_db",
+      "target": "random",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "database/seed_db.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "database_seed_db",
+      "target": "datetime",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "database/seed_db.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "database_seed_db",
+      "target": "models_schemas",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "database/seed_db.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "database_seed_db",
+      "target": "services_data_generator",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "database/seed_db.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "database_seed_db",
+      "target": "database_seed_db_init_and_seed",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "database/seed_db.py",
+      "source_location": "L82",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_oxlintrc",
+      "target": "frontend_oxlintrc_schema",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/.oxlintrc.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_oxlintrc",
+      "target": "frontend_oxlintrc_plugins",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/.oxlintrc.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_oxlintrc",
+      "target": "frontend_oxlintrc_rules",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/.oxlintrc.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_oxlintrc_rules",
+      "target": "frontend_oxlintrc_rules_react_rules_of_hooks",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/.oxlintrc.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_oxlintrc_rules",
+      "target": "frontend_oxlintrc_rules_react_only_export_components",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/.oxlintrc.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_package",
+      "target": "frontend_package_name",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_package",
+      "target": "frontend_package_private",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_package",
+      "target": "frontend_package_version",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_package",
+      "target": "frontend_package_type",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_package",
+      "target": "frontend_package_scripts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_package_scripts",
+      "target": "frontend_package_scripts_dev",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_package_scripts",
+      "target": "frontend_package_scripts_build",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_package_scripts",
+      "target": "frontend_package_scripts_lint",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_package_scripts",
+      "target": "frontend_package_scripts_preview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_package",
+      "target": "frontend_package_dependencies",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_package_dependencies",
+      "target": "frontend_package_dependencies_tailwindcss_vite",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_package",
+      "target": "ref_tailwindcss_vite",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_package_dependencies",
+      "target": "frontend_package_dependencies_leaflet",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_package",
+      "target": "ref_leaflet",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_package_dependencies",
+      "target": "frontend_package_dependencies_lucide_react",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_package",
+      "target": "ref_lucide_react",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_package_dependencies",
+      "target": "frontend_package_dependencies_react",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_package",
+      "target": "ref_react",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_package_dependencies",
+      "target": "frontend_package_dependencies_react_dom",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_package",
+      "target": "ref_react_dom",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_package_dependencies",
+      "target": "frontend_package_dependencies_react_leaflet",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_package",
+      "target": "ref_react_leaflet",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_package_dependencies",
+      "target": "frontend_package_dependencies_recharts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_package",
+      "target": "ref_recharts",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_package_dependencies",
+      "target": "frontend_package_dependencies_tailwindcss",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_package",
+      "target": "ref_tailwindcss",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_package",
+      "target": "frontend_package_devdependencies",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_types_react",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_package",
+      "target": "ref_types_react",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_types_react_dom",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_package",
+      "target": "ref_types_react_dom",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_vitejs_plugin_react",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_package",
+      "target": "ref_vitejs_plugin_react",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_oxlint",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_package",
+      "target": "ref_oxlint",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L26",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_vite",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_package",
+      "target": "ref_vite",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L27",
+      "weight": 1.0,
+      "context": "import",
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app",
+      "target": "frontend_src_components_navbar",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app",
+      "target": "frontend_src_components_heatmap_tacticalgismap",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app",
+      "target": "frontend_src_components_feed_predictivecashoutfeed",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app",
+      "target": "frontend_src_components_graph_moneylayeringgraph",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app",
+      "target": "frontend_src_components_alerts_alertsdrawer",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app",
+      "target": "frontend_src_components_modals_injectincidentmodal",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app",
+      "target": "frontend_src_components_modals_dossiermodal",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app",
+      "target": "frontend_src_components_modals_helpguidemodal",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app",
+      "target": "frontend_src_components_auth_loginpage",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app",
+      "target": "frontend_src_components_roles_roleviews",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app",
+      "target": "frontend_src_components_roles_roleviews_i4ccommandview",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app",
+      "target": "frontend_src_components_roles_roleviews_fieldbeatofficerview",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app",
+      "target": "frontend_src_components_roles_roleviews_banknodalview",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app",
+      "target": "frontend_src_services_api",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app",
+      "target": "frontend_src_services_api_api",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app",
+      "target": "frontend_src_services_api_cybernetrawebsocket",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app",
+      "target": "ref_lucide_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app",
+      "target": "frontend_src_app_app",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_alerts_alertsdrawer",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/Alerts/AlertsDrawer.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_alerts_alertsdrawer",
+      "target": "ref_lucide_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/Alerts/AlertsDrawer.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_alerts_alertsdrawer",
+      "target": "frontend_src_components_alerts_alertsdrawer_alertsdrawer",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/Alerts/AlertsDrawer.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_auth_loginpage",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/Auth/LoginPage.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_auth_loginpage",
+      "target": "ref_lucide_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/Auth/LoginPage.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_auth_loginpage",
+      "target": "frontend_src_components_auth_loginpage_demo_credentials",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/Auth/LoginPage.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_auth_loginpage",
+      "target": "frontend_src_components_auth_loginpage_loginpage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/Auth/LoginPage.jsx",
+      "source_location": "L46",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_feed_predictivecashoutfeed",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/Feed/PredictiveCashoutFeed.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_feed_predictivecashoutfeed",
+      "target": "ref_lucide_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/Feed/PredictiveCashoutFeed.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_feed_predictivecashoutfeed",
+      "target": "frontend_src_components_feed_predictivecashoutfeed_predictivecashoutfeed",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/Feed/PredictiveCashoutFeed.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_graph_moneylayeringgraph",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/Graph/MoneyLayeringGraph.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_graph_moneylayeringgraph",
+      "target": "ref_lucide_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/Graph/MoneyLayeringGraph.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_graph_moneylayeringgraph",
+      "target": "frontend_src_services_api",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/Graph/MoneyLayeringGraph.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_graph_moneylayeringgraph",
+      "target": "frontend_src_services_api_api",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/Graph/MoneyLayeringGraph.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_graph_moneylayeringgraph",
+      "target": "frontend_src_components_graph_moneylayeringgraph_moneylayeringgraph",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/Graph/MoneyLayeringGraph.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_heatmap_tacticalgismap",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/Heatmap/TacticalGISMap.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_heatmap_tacticalgismap",
+      "target": "ref_leaflet",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/Heatmap/TacticalGISMap.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_heatmap_tacticalgismap",
+      "target": "ref_lucide_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/Heatmap/TacticalGISMap.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_heatmap_tacticalgismap",
+      "target": "frontend_src_components_heatmap_tacticalgismap_tacticalgismap",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/Heatmap/TacticalGISMap.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_modals_dossiermodal",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/Modals/DossierModal.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_modals_dossiermodal",
+      "target": "ref_lucide_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/Modals/DossierModal.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_modals_dossiermodal",
+      "target": "frontend_src_services_api",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/Modals/DossierModal.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_modals_dossiermodal",
+      "target": "frontend_src_services_api_api",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/Modals/DossierModal.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_modals_dossiermodal",
+      "target": "frontend_src_components_modals_dossiermodal_dossiermodal",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/Modals/DossierModal.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_modals_helpguidemodal",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/Modals/HelpGuideModal.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_modals_helpguidemodal",
+      "target": "ref_lucide_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/Modals/HelpGuideModal.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_modals_helpguidemodal",
+      "target": "frontend_src_components_modals_helpguidemodal_helpguidemodal",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/Modals/HelpGuideModal.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_modals_injectincidentmodal",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/Modals/InjectIncidentModal.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_modals_injectincidentmodal",
+      "target": "ref_lucide_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/Modals/InjectIncidentModal.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_modals_injectincidentmodal",
+      "target": "frontend_src_services_api",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/Modals/InjectIncidentModal.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_modals_injectincidentmodal",
+      "target": "frontend_src_services_api_api",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/Modals/InjectIncidentModal.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_modals_injectincidentmodal",
+      "target": "frontend_src_components_modals_injectincidentmodal_crime_presets",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/Modals/InjectIncidentModal.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_modals_injectincidentmodal",
+      "target": "frontend_src_components_modals_injectincidentmodal_injectincidentmodal",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/Modals/InjectIncidentModal.jsx",
+      "source_location": "L47",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_navbar",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/Navbar.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_navbar",
+      "target": "ref_lucide_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/Navbar.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_navbar",
+      "target": "frontend_src_components_navbar_navbar",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/Navbar.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_roles_roleviews",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/Roles/RoleViews.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_roles_roleviews",
+      "target": "ref_lucide_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/Roles/RoleViews.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_roles_roleviews",
+      "target": "frontend_src_components_roles_roleviews_i4ccommandview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/Roles/RoleViews.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_roles_roleviews",
+      "target": "frontend_src_components_roles_roleviews_fieldbeatofficerview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/Roles/RoleViews.jsx",
+      "source_location": "L118",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_components_roles_roleviews",
+      "target": "frontend_src_components_roles_roleviews_banknodalview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/Roles/RoleViews.jsx",
+      "source_location": "L217",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_main",
+      "target": "ref_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/main.jsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_main",
+      "target": "ref_react_dom_client",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/main.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_main",
+      "target": "frontend_src_index",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/main.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_main",
+      "target": "frontend_src_app",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/main.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_services_api",
+      "target": "frontend_src_services_api_api",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/services/api.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_services_api",
+      "target": "frontend_src_services_api_cybernetrawebsocket",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/services/api.js",
+      "source_location": "L73",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_services_api_cybernetrawebsocket",
+      "target": "frontend_src_services_api_cybernetrawebsocket_constructor",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/services/api.js",
+      "source_location": "L74",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_services_api_cybernetrawebsocket",
+      "target": "frontend_src_services_api_cybernetrawebsocket_connect",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/services/api.js",
+      "source_location": "L82",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_services_api_cybernetrawebsocket",
+      "target": "frontend_src_services_api_cybernetrawebsocket_reconnect",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/services/api.js",
+      "source_location": "L112",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_services_api_cybernetrawebsocket",
+      "target": "frontend_src_services_api_cybernetrawebsocket_disconnect",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/services/api.js",
+      "source_location": "L119",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_services_api_cybernetrawebsocket_constructor",
+      "target": "frontend_src_services_api_cybernetrawebsocket_connect",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/services/api.js",
+      "source_location": "L79",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_services_api_cybernetrawebsocket_connect",
+      "target": "frontend_src_services_api_cybernetrawebsocket_reconnect",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/services/api.js",
+      "source_location": "L101",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_services_api_cybernetrawebsocket_reconnect",
+      "target": "frontend_src_services_api_cybernetrawebsocket_connect",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/services/api.js",
+      "source_location": "L115",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_vite_config",
+      "target": "ref_vite",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/vite.config.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_vite_config",
+      "target": "ref_vitejs_plugin_react",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/vite.config.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_vite_config",
+      "target": "ref_tailwindcss_vite",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/vite.config.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app",
+      "target": "frontend_src_components_navbar_navbar",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app",
+      "target": "frontend_src_components_heatmap_tacticalgismap_tacticalgismap",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app",
+      "target": "frontend_src_components_feed_predictivecashoutfeed_predictivecashoutfeed",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app",
+      "target": "frontend_src_components_graph_moneylayeringgraph_moneylayeringgraph",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app",
+      "target": "frontend_src_components_alerts_alertsdrawer_alertsdrawer",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app",
+      "target": "frontend_src_components_modals_injectincidentmodal_injectincidentmodal",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app",
+      "target": "frontend_src_components_modals_dossiermodal_dossiermodal",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app",
+      "target": "frontend_src_components_modals_helpguidemodal_helpguidemodal",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app",
+      "target": "frontend_src_components_auth_loginpage_loginpage",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_main",
+      "target": "frontend_src_app_app",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/main.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "backend_models_schemas_complaint",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "backend_models_schemas_prediction",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "backend_models_schemas_atm",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "backend_models_schemas_atmtype",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "backend_models_schemas_risklevel",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "backend_models_schemas_interventionstatus",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "backend_models_schemas_dispatchrequest",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "backend_models_schemas_freezerequest",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "backend_models_schemas_alertnotification",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "backend_models_schemas_crimecategory",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "backend_models_schemas_layerhop",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "backend_models_predictive_engine_predictiveanalyticsengine",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "backend_services_graph_forensics_graphforensicsservice",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "backend_services_alert_dispatcher_alertdispatcherservice",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main",
+      "target": "backend_services_data_generator_generate_random_complaint",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_predictive_engine",
+      "target": "backend_models_schemas_complaint",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/predictive_engine.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_predictive_engine",
+      "target": "backend_models_schemas_prediction",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/predictive_engine.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_predictive_engine",
+      "target": "backend_models_schemas_atm",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/predictive_engine.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_predictive_engine",
+      "target": "backend_models_schemas_atmtype",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/predictive_engine.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_predictive_engine",
+      "target": "backend_models_schemas_risklevel",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/predictive_engine.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_predictive_engine",
+      "target": "backend_models_schemas_interventionstatus",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/predictive_engine.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_predictive_engine",
+      "target": "backend_models_schemas_crimecategory",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/models/predictive_engine.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_alert_dispatcher",
+      "target": "backend_models_schemas_alertnotification",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/services/alert_dispatcher.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_alert_dispatcher",
+      "target": "backend_models_schemas_prediction",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/services/alert_dispatcher.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_alert_dispatcher",
+      "target": "backend_models_schemas_risklevel",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/services/alert_dispatcher.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_data_generator",
+      "target": "backend_models_schemas_complaint",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/services/data_generator.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_data_generator",
+      "target": "backend_models_schemas_layerhop",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/services/data_generator.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_data_generator",
+      "target": "backend_models_schemas_crimecategory",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/services/data_generator.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_graph_forensics",
+      "target": "backend_models_schemas_complaint",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/services/graph_forensics.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_graph_forensics",
+      "target": "backend_models_schemas_prediction",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/services/graph_forensics.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_seed_initial_data",
+      "target": "backend_services_data_generator_generate_random_complaint",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/main.py",
+      "source_location": "L76",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_data_generator_generate_random_complaint",
+      "target": "backend_models_schemas_layerhop",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/services/data_generator.py",
+      "source_location": "L87",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_data_generator_generate_random_complaint",
+      "target": "backend_models_schemas_complaint",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/services/data_generator.py",
+      "source_location": "L107",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_inject_custom_incident",
+      "target": "backend_models_schemas_complaint",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "backend/main.py",
+      "source_location": "L316",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_get_system_status",
+      "target": "backend_models_schemas_risklevel",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "backend/main.py",
+      "source_location": "L98",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_get_active_predictions",
+      "target": "backend_models_schemas_risklevel",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "backend/main.py",
+      "source_location": "L169",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_freeze_account",
+      "target": "backend_models_schemas_risklevel",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "backend/main.py",
+      "source_location": "L249",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_inject_custom_incident",
+      "target": "backend_models_schemas_risklevel",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "backend/main.py",
+      "source_location": "L336",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_get_system_status",
+      "target": "backend_models_schemas_interventionstatus",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "backend/main.py",
+      "source_location": "L98",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_get_atms",
+      "target": "backend_models_schemas_interventionstatus",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "backend/main.py",
+      "source_location": "L129",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_dispatch_unit",
+      "target": "backend_models_schemas_interventionstatus",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "backend/main.py",
+      "source_location": "L189",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_freeze_account",
+      "target": "backend_models_schemas_interventionstatus",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "backend/main.py",
+      "source_location": "L232",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_dispatch_unit",
+      "target": "backend_models_schemas_dispatchrequest",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "backend/main.py",
+      "source_location": "L183",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_freeze_account",
+      "target": "backend_models_schemas_freezerequest",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "backend/main.py",
+      "source_location": "L225",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_dispatch_unit",
+      "target": "backend_models_schemas_alertnotification",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "backend/main.py",
+      "source_location": "L203",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_freeze_account",
+      "target": "backend_models_schemas_alertnotification",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "backend/main.py",
+      "source_location": "L242",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_customincidentinput",
+      "target": "backend_models_schemas_crimecategory",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "backend/main.py",
+      "source_location": "L273",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_main_inject_custom_incident",
+      "target": "backend_models_schemas_layerhop",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "backend/main.py",
+      "source_location": "L290",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_predictive_engine_predictiveanalyticsengine",
+      "target": "backend_models_schemas_complaint",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "backend/models/predictive_engine.py",
+      "source_location": "L42",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_predictive_engine_predictiveanalyticsengine",
+      "target": "backend_models_schemas_prediction",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "backend/models/predictive_engine.py",
+      "source_location": "L69",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_predictive_engine_predictiveanalyticsengine",
+      "target": "backend_models_schemas_atm",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "backend/models/predictive_engine.py",
+      "source_location": "L26",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_predictive_engine_predictiveanalyticsengine",
+      "target": "backend_models_schemas_atmtype",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "backend/models/predictive_engine.py",
+      "source_location": "L123",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_predictive_engine_predictiveanalyticsengine",
+      "target": "backend_models_schemas_risklevel",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "backend/models/predictive_engine.py",
+      "source_location": "L131",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_predictive_engine_predictiveanalyticsengine",
+      "target": "backend_models_schemas_interventionstatus",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "backend/models/predictive_engine.py",
+      "source_location": "L166",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_alert_dispatcher_alertdispatcherservice",
+      "target": "backend_models_schemas_alertnotification",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "backend/services/alert_dispatcher.py",
+      "source_location": "L8",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_alert_dispatcher_alertdispatcherservice",
+      "target": "backend_models_schemas_prediction",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "backend/services/alert_dispatcher.py",
+      "source_location": "L10",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_alert_dispatcher_alertdispatcherservice",
+      "target": "backend_models_schemas_risklevel",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "backend/services/alert_dispatcher.py",
+      "source_location": "L60",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_data_generator_generate_random_complaint",
+      "target": "backend_models_schemas_complaint",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "backend/services/data_generator.py",
+      "source_location": "L54",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_data_generator_generate_random_complaint",
+      "target": "backend_models_schemas_layerhop",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "backend/services/data_generator.py",
+      "source_location": "L87",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_data_generator_generate_random_complaint",
+      "target": "backend_models_schemas_crimecategory",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "backend/services/data_generator.py",
+      "source_location": "L61",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_graph_forensics_graphforensicsservice",
+      "target": "backend_models_schemas_complaint",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "backend/services/graph_forensics.py",
+      "source_location": "L9",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_services_graph_forensics_graphforensicsservice",
+      "target": "backend_models_schemas_prediction",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "backend/services/graph_forensics.py",
+      "source_location": "L9",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "backend_models_predictive_engine_predictiveanalyticsengine_load_reference_data",
+      "target": "backend_models_schemas_atm",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/models/predictive_engine.py",
+      "source_location": "L40",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "database_seed_db_init_and_seed",
+      "target": "backend_services_data_generator_generate_random_complaint",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "database/seed_db.py",
+      "source_location": "L148",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_app",
+      "target": "frontend_src_services_api_cybernetrawebsocket",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L96",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "frontend_src_app_app",
+      "target": "frontend_src_services_api_cybernetrawebsocket_disconnect",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L130",
+      "weight": 1.0,
+      "_origin": "ast"
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "failed_sources": [
+    "C:\\Users\\mehta\\.gemini\\antigravity\\scratch\\cybercrime-predictive-framework\\database\\schema.sql"
+  ]
+}
