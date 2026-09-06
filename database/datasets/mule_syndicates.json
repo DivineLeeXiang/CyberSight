@@ -1,0 +1,57 @@
+[
+  {
+    "id": "SYN-MEWAT-01",
+    "name": "Al-Hind Fast-Withdrawal Task Ring",
+    "origin_hotspot_id": "HOTSPOT-MEWAT-01",
+    "primary_crime_category": "Task / Work from Home Scam",
+    "suspected_runner_count": 28,
+    "common_layering_hops": 2,
+    "preferred_cashout_method": "Standalone Off-Site ATM",
+    "active_status": "ACTIVE",
+    "risk_severity": "CRITICAL"
+  },
+  {
+    "id": "SYN-JAMTARA-02",
+    "name": "Karmatar Biometric & Phish Nexus",
+    "origin_hotspot_id": "HOTSPOT-JAMTARA-02",
+    "primary_crime_category": "KYC Update / Bank Phishing",
+    "suspected_runner_count": 45,
+    "common_layering_hops": 3,
+    "preferred_cashout_method": "Micro-ATM / Rural CSP Kiosk",
+    "active_status": "ACTIVE",
+    "risk_severity": "HIGH"
+  },
+  {
+    "id": "SYN-SURAT-03",
+    "name": "Varachha Current-Account Layering Shells",
+    "origin_hotspot_id": "HOTSPOT-SURAT-04",
+    "primary_crime_category": "Stock Trading / Investment Fraud",
+    "suspected_runner_count": 32,
+    "common_layering_hops": 3,
+    "preferred_cashout_method": "Recycler / Cash Deposit Machine",
+    "active_status": "ACTIVE",
+    "risk_severity": "CRITICAL"
+  },
+  {
+    "id": "SYN-BHARATPUR-04",
+    "name": "Kaman Shadow Video Blackmail Fleet",
+    "origin_hotspot_id": "HOTSPOT-BHARATPUR-03",
+    "primary_crime_category": "Sextortion / Video Call Blackmail",
+    "suspected_runner_count": 19,
+    "common_layering_hops": 2,
+    "preferred_cashout_method": "Standalone Off-Site ATM",
+    "active_status": "ACTIVE",
+    "risk_severity": "HIGH"
+  },
+  {
+    "id": "SYN-GURUGRAM-05",
+    "name": "Cyber-Hub Digital Arrest Impersonators",
+    "origin_hotspot_id": "HOTSPOT-GURUGRAM-05",
+    "primary_crime_category": "Digital Arrest / Fake Police CBI",
+    "suspected_runner_count": 14,
+    "common_layering_hops": 3,
+    "preferred_cashout_method": "Highway / Transit Hub ATM",
+    "active_status": "ACTIVE",
+    "risk_severity": "CRITICAL"
+  }
+]

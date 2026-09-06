@@ -1,0 +1,9 @@
+id,name,state,district,center_lat,center_lng,radius_km,mule_density_index,historical_cashout_count,police_jurisdiction
+HOTSPOT-MEWAT-01,Mewat-Nuh-Punhana Transit Corridor,Haryana,Nuh,28.1065,77.0112,25.0,94.5,1420,Nuh District Cyber Crime Police Station
+HOTSPOT-JAMTARA-02,Jamtara-Karmatar-Giridih Axis,Jharkhand,Jamtara,23.9598,86.8016,30.0,92.0,1880,Jamtara Cyber Crime Police Station
+HOTSPOT-BHARATPUR-03,Bharatpur-Kaman-Deeg Triangle,Rajasthan,Deeg,27.2152,77.503,20.0,88.7,960,Deeg-Bharatpur Range Cyber Cell
+HOTSPOT-SURAT-04,Surat Diamond-Textile Corporate Layering Hub,Gujarat,Surat,21.1702,72.8311,18.0,91.2,2150,Surat City Cyber Crime Police Station
+HOTSPOT-GURUGRAM-05,Gurugram Cyber Hub & Sohna Road Corridor,Haryana,Gurugram,28.4595,77.0266,15.0,86.4,1310,Gurugram Cyber Crime Police Station (East/West)
+HOTSPOT-DELHI-06,Delhi NCR (Dwarka-Rohini-Laxmi Nagar Matrix),Delhi,South West Delhi,28.5921,77.046,25.0,89.8,2400,"IFSO Special Cell, Delhi Police"
+HOTSPOT-HYDERABAD-07,Hyderabad Cyberabad & Financial District Axis,Telangana,Hyderabad,17.4401,78.3489,20.0,83.1,1180,Telangana Cyber Security Bureau (T-CSB)
+HOTSPOT-BENGALURU-08,Bengaluru Electronic City & Whitefield Belt,Karnataka,Bengaluru Urban,12.9716,77.5946,22.0,82.5,1050,"CID Cyber Crime Police Station, Karnataka"

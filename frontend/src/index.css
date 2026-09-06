@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    border-color: #e2e8f0;
+  }
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8fafc;
+    color: #0f172a;
+  }
+  h1, h2, h3, .font-heading {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+  }
+  .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Official Indian Government Tricolor Bar */
+.tricolor-stripe {
+  background: linear-gradient(to right, #ff9933 33%, #ffffff 33%, #ffffff 66%, #138808 66%);
+  height: 3.5px;
+  width: 100%;
+}
+
+/* Light Mode Custom Clean Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Radar Pulse for Light Mode (Crisp Red for Critical) */
+@keyframes radar-pulse-light {
+  0% {
+    transform: scale(0.85);
+    opacity: 0.9;
+  }
+  50% {
+    transform: scale(1.6);
+    opacity: 0.35;
+  }
+  100% {
+    transform: scale(2.2);
+    opacity: 0;
+  }
+}
+
+.radar-ping-fast {
+  animation: radar-pulse-light 1.3s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+.radar-ping {
+  animation: radar-pulse-light 2.2s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+/* Leaflet Map Light Mode Overrides */
+.leaflet-container {
+  background-color: #f1f5f9 !important;
+  font-family: 'Inter', sans-serif !important;
+}
+
+.leaflet-popup-content-wrapper {
+  background: #ffffff !important;
+  color: #0f172a !important;
+  border: 1px solid #cbd5e1 !important;
+  border-radius: 8px !important;
+  box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.15), 0 8px 10px -6px rgba(15, 23, 42, 0.1) !important;
+  padding: 0 !important;
+}
+
+.leaflet-popup-content {
+  margin: 12px !important;
+  line-height: 1.4 !important;
+}
+
+.leaflet-popup-tip {
+  background: #ffffff !important;
+  border: 1px solid #cbd5e1 !important;
+}
+
+.leaflet-tactical-tooltip {
+  background: #ffffff !important;
+  color: #0f172a !important;
+  border: 1px solid #94a3b8 !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1) !important;
+  font-weight: 500 !important;
+}

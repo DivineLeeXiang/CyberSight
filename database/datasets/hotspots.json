@@ -1,0 +1,178 @@
+[
+  {
+    "id": "HOTSPOT-MEWAT-01",
+    "name": "Mewat-Nuh-Punhana Transit Corridor",
+    "state": "Haryana",
+    "district": "Nuh",
+    "center_lat": 28.1065,
+    "center_lng": 77.0112,
+    "radius_km": 25.0,
+    "primary_crimes": [
+      "Task / Work from Home Scam",
+      "Digital Arrest / Fake Police CBI",
+      "Loan App Harassment & Blackmail"
+    ],
+    "mule_density_index": 94.5,
+    "historical_cashout_count": 1420,
+    "active_syndicates": [
+      "Al-Hind Task Ring",
+      "Nuh Express Runners",
+      "Aravalli Cash Syndicate"
+    ],
+    "police_jurisdiction": "Nuh District Cyber Crime Police Station"
+  },
+  {
+    "id": "HOTSPOT-JAMTARA-02",
+    "name": "Jamtara-Karmatar-Giridih Axis",
+    "state": "Jharkhand",
+    "district": "Jamtara",
+    "center_lat": 23.9598,
+    "center_lng": 86.8016,
+    "radius_km": 30.0,
+    "primary_crimes": [
+      "KYC Update / Bank Phishing",
+      "AePS / Biometric Cloning Fraud",
+      "Credit Card / OTP Impersonation"
+    ],
+    "mule_density_index": 92.0,
+    "historical_cashout_count": 1880,
+    "active_syndicates": [
+      "Karmatar Phish Network",
+      "Santhal Mule Matrix",
+      "Subarnarekha Cash Runners"
+    ],
+    "police_jurisdiction": "Jamtara Cyber Crime Police Station"
+  },
+  {
+    "id": "HOTSPOT-BHARATPUR-03",
+    "name": "Bharatpur-Kaman-Deeg Triangle",
+    "state": "Rajasthan",
+    "district": "Deeg",
+    "center_lat": 27.2152,
+    "center_lng": 77.503,
+    "radius_km": 20.0,
+    "primary_crimes": [
+      "Sextortion / Video Call Blackmail",
+      "Task / Work from Home Scam",
+      "OLX Vehicle Impersonation"
+    ],
+    "mule_density_index": 88.7,
+    "historical_cashout_count": 960,
+    "active_syndicates": [
+      "Kaman Shadow Mules",
+      "Mewati Extortion Net",
+      "Deeg FastCash Ring"
+    ],
+    "police_jurisdiction": "Deeg-Bharatpur Range Cyber Cell"
+  },
+  {
+    "id": "HOTSPOT-SURAT-04",
+    "name": "Surat Diamond-Textile Corporate Layering Hub",
+    "state": "Gujarat",
+    "district": "Surat",
+    "center_lat": 21.1702,
+    "center_lng": 72.8311,
+    "radius_km": 18.0,
+    "primary_crimes": [
+      "Stock Trading / Investment Fraud",
+      "Digital Arrest / Fake Police CBI",
+      "Current Account Layering Fraud"
+    ],
+    "mule_density_index": 91.2,
+    "historical_cashout_count": 2150,
+    "active_syndicates": [
+      "Varachha Corporate Mules",
+      "Tapi Shell Syndicate",
+      "Surat Multi-Layer Ops"
+    ],
+    "police_jurisdiction": "Surat City Cyber Crime Police Station"
+  },
+  {
+    "id": "HOTSPOT-GURUGRAM-05",
+    "name": "Gurugram Cyber Hub & Sohna Road Corridor",
+    "state": "Haryana",
+    "district": "Gurugram",
+    "center_lat": 28.4595,
+    "center_lng": 77.0266,
+    "radius_km": 15.0,
+    "primary_crimes": [
+      "Stock Trading / Investment Fraud",
+      "Digital Arrest / Fake Police CBI",
+      "Crypto P2P OTC Laundering"
+    ],
+    "mule_density_index": 86.4,
+    "historical_cashout_count": 1310,
+    "active_syndicates": [
+      "Millennium Cyber Syndicate",
+      "DLF Ph-III Mule Cluster",
+      "Sohna Expressway Runners"
+    ],
+    "police_jurisdiction": "Gurugram Cyber Crime Police Station (East/West)"
+  },
+  {
+    "id": "HOTSPOT-DELHI-06",
+    "name": "Delhi NCR (Dwarka-Rohini-Laxmi Nagar Matrix)",
+    "state": "Delhi",
+    "district": "South West Delhi",
+    "center_lat": 28.5921,
+    "center_lng": 77.046,
+    "radius_km": 25.0,
+    "primary_crimes": [
+      "Digital Arrest / Fake Police CBI",
+      "Stock Trading / Investment Fraud",
+      "KYC Update / Bank Phishing"
+    ],
+    "mule_density_index": 89.8,
+    "historical_cashout_count": 2400,
+    "active_syndicates": [
+      "Capital Layering Guild",
+      "NCR Mule Fleet",
+      "Yamuna Trans-Border Cells"
+    ],
+    "police_jurisdiction": "IFSO Special Cell, Delhi Police"
+  },
+  {
+    "id": "HOTSPOT-HYDERABAD-07",
+    "name": "Hyderabad Cyberabad & Financial District Axis",
+    "state": "Telangana",
+    "district": "Hyderabad",
+    "center_lat": 17.4401,
+    "center_lng": 78.3489,
+    "radius_km": 20.0,
+    "primary_crimes": [
+      "Stock Trading / Investment Fraud",
+      "Loan App Harassment & Blackmail",
+      "Part-Time Job Task Fraud"
+    ],
+    "mule_density_index": 83.1,
+    "historical_cashout_count": 1180,
+    "active_syndicates": [
+      "Deccan Cyber Mules",
+      "HITEC Ghost Accounts",
+      "Telangana Layering Cell"
+    ],
+    "police_jurisdiction": "Telangana Cyber Security Bureau (T-CSB)"
+  },
+  {
+    "id": "HOTSPOT-BENGALURU-08",
+    "name": "Bengaluru Electronic City & Whitefield Belt",
+    "state": "Karnataka",
+    "district": "Bengaluru Urban",
+    "center_lat": 12.9716,
+    "center_lng": 77.5946,
+    "radius_km": 22.0,
+    "primary_crimes": [
+      "Stock Trading / Investment Fraud",
+      "Task / Work from Home Scam",
+      "Foreign Job Visa Fraud"
+    ],
+    "mule_density_index": 82.5,
+    "historical_cashout_count": 1050,
+    "active_syndicates": [
+      "Silicon Shadow Ring",
+      "ORR Cash-Out Agents",
+      "Hosur Border Mules"
+    ],
+    "police_jurisdiction": "CID Cyber Crime Police Station, Karnataka"
+  }
+]
