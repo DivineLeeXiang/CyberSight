@@ -117,4 +117,4 @@ _Questions this graph is uniquely positioned to answer:_
 - **Are the 6 inferred relationships involving `PredictiveAnalyticsEngine` (e.g. with `ATM` and `ATMType`) actually correct?**
   _`PredictiveAnalyticsEngine` has 6 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 6 inferred relationships involving `RiskLevel` (e.g. with `freeze_account()` and `get_active_predictions()`) actually correct?**
-  _`RiskLevel` has 6 INFERRED edges - model-reasoned connections that need verification._
+  _`RiskLevel` has 6 INFERRED edges - model-reasoned connections that need verification.
