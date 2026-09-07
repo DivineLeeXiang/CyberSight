@@ -230,7 +230,6 @@ cd frontend
 npm install --legacy-peer-deps
 npm run dev -- --host 127.0.0.1 --port 5173
 ```
-<<<<<<< HEAD
 Open your browser at: **`http://127.0.0.1:5173`**
 
 ### Demo Login Credentials
@@ -241,10 +240,12 @@ Open your browser at: **`http://127.0.0.1:5173`**
 | District Cyber Cell | `LEA_OFFICER` | `Cyber@LEA2026` |
 | Field Beat Officer | `BEAT_PCR` | `Beat@PCR2026` |
 | CFCFRMS Bank Nodal | `BANK_NODAL` | `Bank@CFCFRMS2026` |
-=======
 
 Open your browser at: `http://127.0.0.1:5173`
->>>>>>> c885b6055ff1347f249be200d1c12f8cb03e8de4
+
+----
+
+#feat: initial commit for CYBER-NETRA predictive cybercrime platform
 
 ----
 
