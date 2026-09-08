@@ -81,9 +81,8 @@ export default function App() {
       setPredictions(predsRes.predictions || []);
       setAlerts(alertsRes.alerts || []);
       
-      if (predsRes.predictions && predsRes.predictions.length > 0 && !selectedPrediction) {
-        setSelectedPrediction(predsRes.predictions[0]);
-      }
+      // Leave selectedPrediction null on initial load so the map starts with a wide India overview
+      // It will zoom in dynamically when the user clicks a card or injects an incident
     } catch (err) {
       console.error("Failed to load initial data", err);
     }
@@ -313,7 +312,7 @@ export default function App() {
       {/* Official Government Footer */}
       <footer className="border-t border-slate-300 bg-white py-4 px-6 mt-8 text-xs text-slate-600 font-medium flex flex-col sm:flex-row items-center justify-between gap-2 max-w-[1720px] mx-auto w-full">
         <div>
-          CYBER-NETRA v2.0 • Indian Cyber Crime Coordination Centre (I4C), Ministry of Home Affairs, Government of India
+          CYBERSIGHT v2.0 • Indian Cyber Crime Coordination Centre (I4C), Ministry of Home Affairs, Government of India
         </div>
         <div className="flex items-center gap-4 text-[11px] font-mono">
           <span>NCRP Integration: VERIFIED</span>

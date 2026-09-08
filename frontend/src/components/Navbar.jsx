@@ -59,7 +59,7 @@ export default function Navbar({
           <div>
             <div className="flex items-center gap-2">
               <h1 className="text-lg font-bold tracking-tight text-blue-950 font-heading flex items-center gap-2">
-                CYBER-NETRA
+                CYBERSIGHT
                 <span className="text-[10px] uppercase font-mono px-2 py-0.5 rounded bg-blue-100 text-blue-900 border border-blue-300 font-bold">
                   I4C Predictive System
                 </span>

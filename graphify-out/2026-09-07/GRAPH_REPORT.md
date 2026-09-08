@@ -1,7 +1,7 @@
-# Graph Report - cybercrime-predictive-framework  (2026-09-07)
+# Graph Report - cybercrime-predictive-framework  (2026-09-06)
 
 ## Corpus Check
-- 33 files · ~28,622 words
+- 33 files · ~28,587 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `86e44270`
+- Built from commit: `7d7948b3`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -35,21 +35,21 @@
 5. `RiskLevel` - 12 edges
 6. `lucide-react` - 12 edges
 7. `InterventionStatus` - 10 edges
-8. `🛡️ CYBERSIGHT by Divyansh` - 9 edges
-9. `AlertNotification` - 9 edges
-10. `💻 Quickstart & Local Installation` - 8 edges
+8. `AlertNotification` - 9 edges
+9. `🛡️ CYBERSIGHT by Divyansh` - 9 edges
+10. `AlertDispatcherService` - 8 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `init_and_seed()` --calls--> `generate_random_complaint()`  [INFERRED]
   database/seed_db.py → backend/services/data_generator.py
+- `GraphForensicsService` --uses--> `Complaint`  [INFERRED]
+  backend/services/graph_forensics.py → backend/models/schemas.py
+- `PredictiveAnalyticsEngine` --uses--> `Prediction`  [INFERRED]
+  backend/models/predictive_engine.py → backend/models/schemas.py
 - `dispatch_unit()` --uses--> `AlertNotification`  [INFERRED]
   backend/main.py → backend/models/schemas.py
 - `freeze_account()` --uses--> `AlertNotification`  [INFERRED]
   backend/main.py → backend/models/schemas.py
-- `PredictiveAnalyticsEngine` --uses--> `Prediction`  [INFERRED]
-  backend/models/predictive_engine.py → backend/models/schemas.py
-- `AlertDispatcherService` --uses--> `RiskLevel`  [INFERRED]
-  backend/services/alert_dispatcher.py → backend/models/schemas.py
 
 ## Import Cycles
 - None detected.
@@ -97,7 +97,7 @@ Cohesion: 0.18
 Nodes (8): AlertNotification, Prediction, AlertDispatcherService, Dispatches automated SMS, WhatsApp, and CFCFRMS Bank API alerts upon high-risk…, GraphForensicsService, Any, Adds victim, layered mule hops, and predicted cashout ATM to the directed graph., Returns JSON-serializable nodes and edges for a specific complaint.
 
 ## Knowledge Gaps
-- **53 isolated node(s):** `👁️ CYBERSIGHT`, `National Predictive Cybercrime Cash-Out Forecasting & Proactive Intervention Platform`, `📌 Problem Statement Background`, `🏗️ Architecture & Data Flow`, `🏛️ God Nodes — Core Abstractions (Most Connected)` (+48 more)
+- **53 isolated node(s):** `React Compiler`, `Expanding the Oxlint configuration`, `DEMO_CREDENTIALS`, `CRIME_PRESETS`, `oxlint` (+48 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -117,4 +117,4 @@ _Questions this graph is uniquely positioned to answer:_
 - **Are the 6 inferred relationships involving `PredictiveAnalyticsEngine` (e.g. with `ATM` and `ATMType`) actually correct?**
   _`PredictiveAnalyticsEngine` has 6 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 6 inferred relationships involving `RiskLevel` (e.g. with `freeze_account()` and `get_active_predictions()`) actually correct?**
-  _`RiskLevel` has 6 INFERRED edges - model-reasoned connections that need verification._
+  _`RiskLevel` has 6 INFERRED edges - model-reasoned connections that need verification.

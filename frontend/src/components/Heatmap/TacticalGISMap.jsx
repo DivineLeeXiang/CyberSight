@@ -41,10 +41,9 @@ export default function TacticalGISMap({
       zoomControl: false
     });
 
-    // Light, crisp government cartography tiles (CartoDB Positron)
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-      attribution: '&copy; OpenStreetMap contributors &copy; CartoDB | I4C CYBER-NETRA',
-      subdomains: 'abcd',
+    // Crisp, clean government GIS tiles (OpenStreetMap - Zero Watermark)
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; OpenStreetMap contributors | I4C CYBERSIGHT',
       maxZoom: 19
     }).addTo(map);
 
