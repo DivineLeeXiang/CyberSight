@@ -2176,7 +2176,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "frontend/src/App.jsx",
-      "source_location": "L95",
+      "source_location": "L96",
       "weight": 1.0
     },
     {
@@ -2889,6 +2889,18 @@
     },
     {
       "source": "frontend_src_app",
+      "target": "frontend_src_components_auth_loginpage_loginpage",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_src_app",
       "target": "frontend_src_components_roles_roleviews_banknodalview",
       "relation": "imports",
       "_origin": "ast",
@@ -2949,26 +2961,14 @@
     },
     {
       "source": "frontend_src_app",
-      "target": "frontend_src_components_navbar_navbar",
+      "target": "frontend_src_components_modals_helpguidemodal_helpguidemodal",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "frontend/src/App.jsx",
-      "source_location": "L2",
-      "weight": 1.0
-    },
-    {
-      "source": "frontend_src_app",
-      "target": "frontend_src_components_heatmap_tacticalgismap_tacticalgismap",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "frontend/src/App.jsx",
-      "source_location": "L3",
+      "source_location": "L9",
       "weight": 1.0
     },
     {
@@ -5390,7 +5390,7 @@
       "confidence_score": 0.8,
       "context": "call",
       "source_file": "frontend/src/App.jsx",
-      "source_location": "L129",
+      "source_location": "L130",
       "weight": 1.0
     },
     {
@@ -5706,5 +5706,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "c44673a0299788a4d4ba1caacbb6f7f3aecc7628"
+  "built_at_commit": "86e442703b0858ea37d6a9ee4908f4a0a1185790"
 }

@@ -97,11 +97,17 @@ export class CyberNetraWebSocket {
       };
 
       this.ws.onclose = () => {
-        if (this.onStatusChange) this.onStatusChange(false);
+        // Test if HTTP API is alive before showing offline
+        fetch(`${API_BASE}/status`)
+          .then(res => res.ok ? this.onStatusChange && this.onStatusChange(true) : this.onStatusChange && this.onStatusChange(false))
+          .catch(() => this.onStatusChange && this.onStatusChange(false));
         this.reconnect();
       };
 
       this.ws.onerror = () => {
+        fetch(`${API_BASE}/status`)
+          .then(res => res.ok ? this.onStatusChange && this.onStatusChange(true) : null)
+          .catch(() => null);
         this.ws.close();
       };
     } catch (err) {

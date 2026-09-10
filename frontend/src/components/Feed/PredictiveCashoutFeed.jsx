@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { 
   AlertOctagon, Clock, Shield, Building, MapPin, 
-  Search, FileText, CheckCircle2, ChevronRight, Share2, Lock, CheckSquare, Square
+  Search, FileText, CheckCircle2, ChevronRight, Share2, Lock, CheckSquare, Square, Network
 } from 'lucide-react';
 
 export default function PredictiveCashoutFeed({ 
@@ -241,10 +241,11 @@ export default function PredictiveCashoutFeed({
                       e.stopPropagation();
                       onViewDossier(pred.complaint_id);
                     }}
-                    className="p-1 rounded bg-slate-100 hover:bg-slate-200 text-slate-700 border border-slate-300 transition-colors cursor-pointer"
+                    className="px-2 py-1 rounded bg-slate-100 hover:bg-slate-200 text-slate-700 border border-slate-300 text-[11px] font-semibold flex items-center gap-1 transition-colors cursor-pointer"
                     title="Generate Section 91/94 Legal Intelligence Notice"
                   >
-                    <FileText className="w-3.5 h-3.5" />
+                    <FileText className="w-3 h-3 text-slate-600" />
+                    <span className="hidden sm:inline">Notice</span>
                   </button>
 
                   <button
@@ -252,10 +253,11 @@ export default function PredictiveCashoutFeed({
                       e.stopPropagation();
                       onViewGraph(pred.complaint_id);
                     }}
-                    className="p-1 rounded bg-slate-100 hover:bg-slate-200 text-slate-700 border border-slate-300 transition-colors cursor-pointer"
+                    className="px-2 py-1 rounded bg-blue-50 hover:bg-blue-100 text-blue-900 border border-blue-300 text-[11px] font-bold flex items-center gap-1 transition-colors cursor-pointer"
                     title="Explore Multi-Layer Money Flow Graph"
                   >
-                    <Share2 className="w-3.5 h-3.5" />
+                    <Network className="w-3 h-3 text-blue-800" />
+                    <span>Trail</span>
                   </button>
                 </div>
               </div>

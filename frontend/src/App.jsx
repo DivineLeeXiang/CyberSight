@@ -30,7 +30,7 @@ export default function App() {
   
   const [activeRole, setActiveRole] = useState(storedUser?.role || 'i4c'); // 'i4c', 'lea', 'beat', 'bank'
   const [selectedPrediction, setSelectedPrediction] = useState(null);
-  const [wsConnected, setWsConnected] = useState(false);
+  const [wsConnected, setWsConnected] = useState(true);
   const [soundEnabled, setSoundEnabled] = useState(true);
   
   // Modals

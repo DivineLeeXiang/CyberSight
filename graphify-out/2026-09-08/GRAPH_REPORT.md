@@ -1,7 +1,7 @@
-# Graph Report - cybercrime-predictive-framework  (2026-09-08)
+# Graph Report - cybercrime-predictive-framework  (2026-09-07)
 
 ## Corpus Check
-- 33 files · ~28,647 words
+- 33 files · ~28,622 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `c44673a0`
+- Built from commit: `86e44270`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -35,9 +35,9 @@
 5. `RiskLevel` - 12 edges
 6. `lucide-react` - 12 edges
 7. `InterventionStatus` - 10 edges
-8. `AlertNotification` - 9 edges
-9. `🛡️ CYBERSIGHT by Divyansh` - 9 edges
-10. `AlertDispatcherService` - 8 edges
+8. `🛡️ CYBERSIGHT by Divyansh` - 9 edges
+9. `AlertNotification` - 9 edges
+10. `💻 Quickstart & Local Installation` - 8 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `init_and_seed()` --calls--> `generate_random_complaint()`  [INFERRED]
@@ -58,7 +58,7 @@
 
 ### Community 1 - "App.jsx"
 Cohesion: 0.14
-Nodes (10): DEMO_CREDENTIALS, TacticalGISMap(), CRIME_PRESETS, Navbar(), BankNodalView(), FieldBeatOfficerView(), I4CCommandView(), api (+2 more)
+Nodes (10): DEMO_CREDENTIALS, LoginPage(), HelpGuideModal(), CRIME_PRESETS, BankNodalView(), FieldBeatOfficerView(), I4CCommandView(), api (+2 more)
 
 ### Community 2 - "package.json"
 Cohesion: 0.08
@@ -97,7 +97,7 @@ Cohesion: 0.18
 Nodes (8): AlertNotification, Prediction, AlertDispatcherService, Dispatches automated SMS, WhatsApp, and CFCFRMS Bank API alerts upon high-risk…, GraphForensicsService, Any, Adds victim, layered mule hops, and predicted cashout ATM to the directed graph., Returns JSON-serializable nodes and edges for a specific complaint.
 
 ## Knowledge Gaps
-- **53 isolated node(s):** `DEMO_CREDENTIALS`, `CRIME_PRESETS`, `oxlint`, `@types/react`, `@types/react-dom` (+48 more)
+- **53 isolated node(s):** `👁️ CYBERSIGHT`, `National Predictive Cybercrime Cash-Out Forecasting & Proactive Intervention Platform`, `📌 Problem Statement Background`, `🏗️ Architecture & Data Flow`, `🏛️ God Nodes — Core Abstractions (Most Connected)` (+48 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
