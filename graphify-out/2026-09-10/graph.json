@@ -270,7 +270,7 @@
       "file_type": "code",
       "norm_label": ".disconnect()",
       "source_file": "frontend/src/services/api.js",
-      "source_location": "L125"
+      "source_location": "L119"
     },
     {
       "id": "frontend_src_services_api_cybernetrawebsocket_reconnect",
@@ -282,7 +282,7 @@
       "file_type": "code",
       "norm_label": ".reconnect()",
       "source_file": "frontend/src/services/api.js",
-      "source_location": "L118"
+      "source_location": "L112"
     },
     {
       "id": "frontend_src_components_alerts_alertsdrawer_alertsdrawer",
@@ -2188,7 +2188,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "frontend/src/services/api.js",
-      "source_location": "L104",
+      "source_location": "L101",
       "weight": 1.0
     },
     {
@@ -2949,14 +2949,26 @@
     },
     {
       "source": "frontend_src_app",
-      "target": "frontend_src_components_feed_predictivecashoutfeed_predictivecashoutfeed",
+      "target": "frontend_src_components_navbar_navbar",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "frontend/src/App.jsx",
-      "source_location": "L4",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "frontend_src_app",
+      "target": "frontend_src_components_heatmap_tacticalgismap_tacticalgismap",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L3",
       "weight": 1.0
     },
     {
@@ -5223,7 +5235,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "frontend/src/services/api.js",
-      "source_location": "L118",
+      "source_location": "L112",
       "weight": 1.0
     },
     {
@@ -5234,7 +5246,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "frontend/src/services/api.js",
-      "source_location": "L125",
+      "source_location": "L119",
       "weight": 1.0
     },
     {
@@ -5694,5 +5706,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "bf0d51506d5ad63e3e755a67d089e4d3a732f7f2"
+  "built_at_commit": "c44673a0299788a4d4ba1caacbb6f7f3aecc7628"
 }

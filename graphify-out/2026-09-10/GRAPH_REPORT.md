@@ -1,16 +1,16 @@
-# Graph Report - cybercrime-predictive-framework  (2026-09-10)
+# Graph Report - cybercrime-predictive-framework  (2026-09-08)
 
 ## Corpus Check
-- 33 files · ~28,703 words
+- 33 files · ~28,647 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 177 nodes · 317 edges · 11 communities (10 shown, 1 thin omitted)
+- 177 nodes · 318 edges · 11 communities (10 shown, 1 thin omitted)
 - Extraction: 91% EXTRACTED · 9% INFERRED · 0% AMBIGUOUS · INFERRED: 29 edges (avg confidence: 0.94)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `bf0d5150`
+- Built from commit: `c44673a0`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -58,7 +58,7 @@
 
 ### Community 1 - "App.jsx"
 Cohesion: 0.14
-Nodes (9): DEMO_CREDENTIALS, PredictiveCashoutFeed(), CRIME_PRESETS, BankNodalView(), FieldBeatOfficerView(), I4CCommandView(), api, lucide-react (+1 more)
+Nodes (10): DEMO_CREDENTIALS, TacticalGISMap(), CRIME_PRESETS, Navbar(), BankNodalView(), FieldBeatOfficerView(), I4CCommandView(), api (+2 more)
 
 ### Community 2 - "package.json"
 Cohesion: 0.08
@@ -105,7 +105,7 @@ Nodes (8): AlertNotification, Prediction, AlertDispatcherService, Dispatches aut
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `react` connect `App.jsx` to `package.json`?**
-  _High betweenness centrality (0.046) - this node is a cross-community bridge._
+  _High betweenness centrality (0.045) - this node is a cross-community bridge._
 - **Why does `lucide-react` connect `App.jsx` to `package.json`?**
   _High betweenness centrality (0.041) - this node is a cross-community bridge._
 - **Why does `dependencies` connect `dependencies` to `package.json`?**

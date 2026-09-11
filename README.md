@@ -19,6 +19,12 @@
 **An AI-driven operational defense framework developed for the Indian Cyber Crime Coordination Centre (I4C), Ministry of Home Affairs (MHA), State Law Enforcement Agencies (LEAs), and the Citizen Financial Cyber Fraud Reporting and Management System (CFCFRMS / 1930).**
 
 </div>
+---
+
+## 📄 Project Report
+
+[View the Project Report (PDF)][ProjectReport]
+
 
 ---
 
@@ -254,3 +260,6 @@ Open your browser at: `http://127.0.0.1:5173`
 
 This project is open-sourced under the [MIT License](LICENSE).
 Developed for national cyber defense research and Smart India Hackathon / I4C problem statements.
+
+
+[ProjectReport]: docs/CYBERSIGHT_Master_Project_Report.pdf
